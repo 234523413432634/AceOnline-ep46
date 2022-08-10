@@ -1,0 +1,9 @@
+AuthenticationServer 생성 순서.
+1.db_authentication_server로 DB 신규 생성
+2.AuthenticationServer_01_CREATE_ACCOUNT.sql 실행
+3.AuthenticationServer_02_CREATE_LOG_ACEONLINE.sql 실행
+4.AuthenticationServer_03_CREATE_PROCEDURE_SELECT_ACCOUNT.sql 실행
+5.AuthenticationServer_04_CREATE_PROCEDURE_INSERT_LOG.sql 실행
+
+위의 순서로 순차적으로 실행하도록 합니다.
+

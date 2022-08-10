@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataRenderLib", "DataRenderLib\DataRenderLib.vcxproj", "{7E1BA63A-4C9A-47C1-9156-28B4B2E8DAFC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DirectXLib", "DirectXLib\DirectXLib.vcxproj", "{65BC34A1-CEC7-4B05-95A4-4ABCEF924F7C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EffectLib", "EffectLib\EffectLib.vcxproj", "{229C1EA2-B886-455B-BD8A-917DEE4AA053}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EtcLib", "EtcLib\EtcLib.vcxproj", "{ED81C901-76EB-43DD-91C2-AEB842897099}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InterfaceLib", "InterfaceLib\InterfaceLib.vcxproj", "{A73BCB65-851E-41DD-ADD9-65176CD52588}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProjectAtum", "ProjectAtum\ProjectAtum.vcxproj", "{1B1F307E-C37E-41D5-B440-F59571AB13A9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SkinnedMeshLib", "SkinnedMeshLib\SkinnedMeshLib.vcxproj", "{666876B8-504A-4315-B985-7B2B96D6A0F2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SocketLib", "SocketLib\SocketLib.vcxproj", "{96F86E51-E74F-4DE2-A5B4-C26E032B3551}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		R_Evo|x86 = R_Evo|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E1BA63A-4C9A-47C1-9156-28B4B2E8DAFC}.R_Evo|x86.ActiveCfg = R_Wikigames_Eng|Win32
+		{7E1BA63A-4C9A-47C1-9156-28B4B2E8DAFC}.R_Evo|x86.Build.0 = R_Wikigames_Eng|Win32
+		{65BC34A1-CEC7-4B05-95A4-4ABCEF924F7C}.R_Evo|x86.ActiveCfg = R_Wikigames_Eng|Win32
+		{65BC34A1-CEC7-4B05-95A4-4ABCEF924F7C}.R_Evo|x86.Build.0 = R_Wikigames_Eng|Win32
+		{229C1EA2-B886-455B-BD8A-917DEE4AA053}.R_Evo|x86.ActiveCfg = R_Wikigames_Eng|Win32
+		{229C1EA2-B886-455B-BD8A-917DEE4AA053}.R_Evo|x86.Build.0 = R_Wikigames_Eng|Win32
+		{ED81C901-76EB-43DD-91C2-AEB842897099}.R_Evo|x86.ActiveCfg = R_Wikigames_Eng|Win32
+		{ED81C901-76EB-43DD-91C2-AEB842897099}.R_Evo|x86.Build.0 = R_Wikigames_Eng|Win32
+		{A73BCB65-851E-41DD-ADD9-65176CD52588}.R_Evo|x86.ActiveCfg = R_Wikigames_Eng|Win32
+		{A73BCB65-851E-41DD-ADD9-65176CD52588}.R_Evo|x86.Build.0 = R_Wikigames_Eng|Win32
+		{1B1F307E-C37E-41D5-B440-F59571AB13A9}.R_Evo|x86.ActiveCfg = R_Wikigames_Eng|Win32
+		{1B1F307E-C37E-41D5-B440-F59571AB13A9}.R_Evo|x86.Build.0 = R_Wikigames_Eng|Win32
+		{666876B8-504A-4315-B985-7B2B96D6A0F2}.R_Evo|x86.ActiveCfg = R_Wikigames_Eng|Win32
+		{666876B8-504A-4315-B985-7B2B96D6A0F2}.R_Evo|x86.Build.0 = R_Wikigames_Eng|Win32
+		{96F86E51-E74F-4DE2-A5B4-C26E032B3551}.R_Evo|x86.ActiveCfg = R_Wikigames_Eng|Win32
+		{96F86E51-E74F-4DE2-A5B4-C26E032B3551}.R_Evo|x86.Build.0 = R_Wikigames_Eng|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49B78E33-47EE-4975-96A8-D338AD9E7FF3}
+	EndGlobalSection
+EndGlobal

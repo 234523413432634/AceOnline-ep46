@@ -1,0 +1,2898 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development|Win32">
+      <Configuration>Development</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="D_Arario_Jpn|Win32">
+      <Configuration>D_Arario_Jpn</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="D_Gameforge4D_Deu|Win32">
+      <Configuration>D_Gameforge4D_Deu</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="D_Gameforge4D_Eng|Win32">
+      <Configuration>D_Gameforge4D_Eng</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="D_Gameforge4D_Esp|Win32">
+      <Configuration>D_Gameforge4D_Esp</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="D_Gameforge4D_France|Win32">
+      <Configuration>D_Gameforge4D_France</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="D_Gameforge4D_Italian|Win32">
+      <Configuration>D_Gameforge4D_Italian</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="D_Gameforge4D_Pol|Win32">
+      <Configuration>D_Gameforge4D_Pol</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="D_Gameforge4D_Turkish|Win32">
+      <Configuration>D_Gameforge4D_Turkish</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="D_Innova_Rus|Win32">
+      <Configuration>D_Innova_Rus</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="D_Intecom_Viet|Win32">
+      <Configuration>D_Intecom_Viet</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="D_LIN_Arg|Win32">
+      <Configuration>D_LIN_Arg</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="D_Netpower_Tpe|Win32">
+      <Configuration>D_Netpower_Tpe</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="D_Test140|Win32">
+      <Configuration>D_Test140</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="D_Wikigames_Eng|Win32">
+      <Configuration>D_Wikigames_Eng</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="D_WinnerOnline_IDN|Win32">
+      <Configuration>D_WinnerOnline_IDN</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="D_WinnerOnline_SGP|Win32">
+      <Configuration>D_WinnerOnline_SGP</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="D_WinnerOnline_Tha|Win32">
+      <Configuration>D_WinnerOnline_Tha</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="D_Yedang_Kor|Win32">
+      <Configuration>D_Yedang_Kor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="D_Yetime_Chn|Win32">
+      <Configuration>D_Yetime_Chn</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="R_Arario_Jpn|Win32">
+      <Configuration>R_Arario_Jpn</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="R_Arena_Wikigames_Eng|Win32">
+      <Configuration>R_Arena_Wikigames_Eng</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="R_Evo_ARENA|Win32">
+      <Configuration>R_Evo_ARENA</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="R_Gameforge4D_Deu|Win32">
+      <Configuration>R_Gameforge4D_Deu</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="R_Gameforge4D_Eng|Win32">
+      <Configuration>R_Gameforge4D_Eng</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="R_Gameforge4D_Esp|Win32">
+      <Configuration>R_Gameforge4D_Esp</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="R_Gameforge4D_France|Win32">
+      <Configuration>R_Gameforge4D_France</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="R_Gameforge4D_Italian|Win32">
+      <Configuration>R_Gameforge4D_Italian</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="R_Gameforge4D_Pol|Win32">
+      <Configuration>R_Gameforge4D_Pol</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="R_Gameforge4D_Turkish|Win32">
+      <Configuration>R_Gameforge4D_Turkish</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="R_Innova_Rus|Win32">
+      <Configuration>R_Innova_Rus</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="R_Intecom_Viet|Win32">
+      <Configuration>R_Intecom_Viet</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="R_LIN_Arg|Win32">
+      <Configuration>R_LIN_Arg</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="R_Netpower_Tpe|Win32">
+      <Configuration>R_Netpower_Tpe</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="R_Test140|Win32">
+      <Configuration>R_Test140</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="R_Wikigames_Eng|Win32">
+      <Configuration>R_Wikigames_Eng</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="R_WinnerOnline_IDN|Win32">
+      <Configuration>R_WinnerOnline_IDN</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="R_WinnerOnline_SGP|Win32">
+      <Configuration>R_WinnerOnline_SGP</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="R_WinnerOnline_Tha|Win32">
+      <Configuration>R_WinnerOnline_Tha</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="R_Yedang_Kor|Win32">
+      <Configuration>R_Yedang_Kor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="R_Yetime_Chn|Win32">
+      <Configuration>R_Yetime_Chn</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>MFCProj</Keyword>
+    <ProjectGuid>{FE6E33DA-466C-4C12-BD19-43EDE1B1B970}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_Test140|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_Intecom_Viet|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_Netpower_Tpe|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='D_Test140|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='D_Netpower_Tpe|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Eng|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Italian|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_France|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Esp|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_WinnerOnline_Tha|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_Arario_Jpn|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='D_Yetime_Chn|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_Yedang_Kor|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_WinnerOnline_SGP|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='D_Wikigames_Eng|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Pol|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='D_Arario_Jpn|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Italian|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_WinnerOnline_IDN|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Pol|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Turkish|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_Yetime_Chn|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='D_Yedang_Kor|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Eng|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_France|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Deu|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='D_WinnerOnline_IDN|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_Wikigames_Eng|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_Evo_ARENA|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_Arena_Wikigames_Eng|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_Innova_Rus|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_LIN_Arg|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='D_WinnerOnline_SGP|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='D_LIN_Arg|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Deu|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='D_Intecom_Viet|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='D_WinnerOnline_Tha|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Turkish|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Esp|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='D_Innova_Rus|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='R_Test140|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='R_Intecom_Viet|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='R_Netpower_Tpe|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='D_Test140|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='D_Netpower_Tpe|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Eng|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Italian|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_France|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Esp|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='R_WinnerOnline_Tha|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='R_Arario_Jpn|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='D_Yetime_Chn|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='R_Yedang_Kor|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='R_WinnerOnline_SGP|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='D_Wikigames_Eng|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Pol|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='D_Arario_Jpn|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Italian|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='R_WinnerOnline_IDN|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Pol|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Turkish|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='R_Yetime_Chn|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='D_Yedang_Kor|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Eng|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_France|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Deu|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='D_WinnerOnline_IDN|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='R_Wikigames_Eng|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='R_Evo_ARENA|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='R_Arena_Wikigames_Eng|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='R_Innova_Rus|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='R_LIN_Arg|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='D_WinnerOnline_SGP|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='D_LIN_Arg|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Deu|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='D_Intecom_Viet|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='D_WinnerOnline_Tha|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Turkish|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Esp|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='D_Innova_Rus|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='D_Innova_Rus|Win32'">
+    <OutDir>.\QuestLoader___Win32_D_Innova_Rus\</OutDir>
+    <IntDir>.\QuestLoader___Win32_D_Innova_Rus\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Esp|Win32'">
+    <OutDir>.\QuestLoader___Win32_D_Gameforge4D_Esp\</OutDir>
+    <IntDir>.\QuestLoader___Win32_D_Gameforge4D_Esp\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Turkish|Win32'">
+    <OutDir>.\QuestLoader___Win32_R_Gameforge4D_Turkish\</OutDir>
+    <IntDir>.\QuestLoader___Win32_R_Gameforge4D_Turkish\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='D_WinnerOnline_Tha|Win32'">
+    <OutDir>.\QuestLoader___Win32_D_WinnerOnline_Tha\</OutDir>
+    <IntDir>.\QuestLoader___Win32_D_WinnerOnline_Tha\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='D_Intecom_Viet|Win32'">
+    <OutDir>.\QuestLoader___Win32_D_Intecom_Viet\</OutDir>
+    <IntDir>.\QuestLoader___Win32_D_Intecom_Viet\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Deu|Win32'">
+    <OutDir>.\QuestLoader___Win32_R_Gameforge4D_Deu\</OutDir>
+    <IntDir>.\QuestLoader___Win32_R_Gameforge4D_Deu\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='D_LIN_Arg|Win32'">
+    <OutDir>.\QuestLoader___Win32_D_LIN_Arg\</OutDir>
+    <IntDir>.\QuestLoader___Win32_D_LIN_Arg\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='D_WinnerOnline_SGP|Win32'">
+    <OutDir>.\QuestLoader___Win32_D_WinnerOnline_SGP\</OutDir>
+    <IntDir>.\QuestLoader___Win32_D_WinnerOnline_SGP\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_LIN_Arg|Win32'">
+    <OutDir>.\QuestLoader___Win32_R_LIN_Arg\</OutDir>
+    <IntDir>.\QuestLoader___Win32_R_LIN_Arg\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_Innova_Rus|Win32'">
+    <OutDir>.\QuestLoader___Win32_R_Innova_Rus\</OutDir>
+    <IntDir>.\QuestLoader___Win32_R_Innova_Rus\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_Wikigames_Eng|Win32'">
+    <OutDir>$(SolutionDir)..\..\Build\Tools\</OutDir>
+    <IntDir>$(SolutionDir)..\..\Intermediate\$(ProjectName)\$(Configuration)_$(Platform)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <ExecutablePath>$(VC_ExecutablePath_x86);$(WindowsSDK_ExecutablePath);$(VS_ExecutablePath);$(MSBuild_ExecutablePath);$(SystemRoot)\SysWow64;$(FxCopDir);../../BisonFlex/bin/;$(PATH);</ExecutablePath>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)..\..\DX9bLink\include\</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(SolutionDir)..\..\DX9bLink\lib\;$(SolutionDir)..\..\Lib\;$(SolutionDir)..\..\Build\Lib\</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_Evo_ARENA|Win32'">
+    <OutDir>$(SolutionDir)..\..\Build\Tools\</OutDir>
+    <IntDir>$(SolutionDir)..\..\Intermediate\$(ProjectName)\$(Configuration)_$(Platform)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <ExecutablePath>$(VC_ExecutablePath_x86);$(WindowsSDK_ExecutablePath);$(VS_ExecutablePath);$(MSBuild_ExecutablePath);$(SystemRoot)\SysWow64;$(FxCopDir);../../BisonFlex/bin/;$(PATH);</ExecutablePath>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)..\..\DX9bLink\include\</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(SolutionDir)..\..\DX9bLink\lib\;$(SolutionDir)..\..\Lib\;$(SolutionDir)..\..\Build\Lib\</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|Win32'">
+    <OutDir>$(SolutionDir)..\..\Build\Tools\</OutDir>
+    <IntDir>$(SolutionDir)..\..\Intermediate\$(ProjectName)\$(Configuration)_$(Platform)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <ExecutablePath>$(VC_ExecutablePath_x86);$(WindowsSDK_ExecutablePath);$(VS_ExecutablePath);$(MSBuild_ExecutablePath);$(SystemRoot)\SysWow64;$(FxCopDir);../../BisonFlex/bin/;$(PATH);</ExecutablePath>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)..\..\External\DX9bLink\include\</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(SolutionDir)..\..\External\DX9bLink\lib\;$(SolutionDir)..\..\Lib\;$(SolutionDir)..\..\Build\Lib\</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_Arena_Wikigames_Eng|Win32'">
+    <OutDir>$(SolutionDir)..\..\Build\Tools\</OutDir>
+    <IntDir>$(SolutionDir)..\..\Intermediate\$(ProjectName)\$(Configuration)_$(Platform)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <ExecutablePath>$(VC_ExecutablePath_x86);$(WindowsSDK_ExecutablePath);$(VS_ExecutablePath);$(MSBuild_ExecutablePath);$(SystemRoot)\SysWow64;$(FxCopDir);../../BisonFlex/bin/;$(PATH);</ExecutablePath>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)..\..\External\DX9bLink\include\</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(SolutionDir)..\..\External\DX9bLink\lib\;$(SolutionDir)..\..\Lib\;$(SolutionDir)..\..\Build\Lib\</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='D_WinnerOnline_IDN|Win32'">
+    <OutDir>.\QuestLoader___Win32_D_WinnerOnline_IDN\</OutDir>
+    <IntDir>.\QuestLoader___Win32_D_WinnerOnline_IDN\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Deu|Win32'">
+    <OutDir>.\QuestLoader___Win32_D_Gameforge4D_Deu\</OutDir>
+    <IntDir>.\QuestLoader___Win32_D_Gameforge4D_Deu\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_France|Win32'">
+    <OutDir>.\QuestLoader___Win32_D_Gameforge4D_France\</OutDir>
+    <IntDir>.\QuestLoader___Win32_D_Gameforge4D_France\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Eng|Win32'">
+    <OutDir>.\QuestLoader___Win32_D_Gameforge4D_Eng\</OutDir>
+    <IntDir>.\QuestLoader___Win32_D_Gameforge4D_Eng\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='D_Yedang_Kor|Win32'">
+    <OutDir>.\QuestLoader___Win32_D_Yedang_Kor\</OutDir>
+    <IntDir>.\QuestLoader___Win32_D_Yedang_Kor\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_Yetime_Chn|Win32'">
+    <OutDir>.\QuestLoader___Win32_R_Yetime_Chn\</OutDir>
+    <IntDir>.\QuestLoader___Win32_R_Yetime_Chn\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Turkish|Win32'">
+    <OutDir>.\QuestLoader___Win32_D_Gameforge4D_Turkish\</OutDir>
+    <IntDir>.\QuestLoader___Win32_D_Gameforge4D_Turkish\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Pol|Win32'">
+    <OutDir>.\QuestLoader___Win32_R_Gameforge4D_Pol\</OutDir>
+    <IntDir>.\QuestLoader___Win32_R_Gameforge4D_Pol\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_WinnerOnline_IDN|Win32'">
+    <OutDir>.\QuestLoader___Win32_R_WinnerOnline_IDN\</OutDir>
+    <IntDir>.\QuestLoader___Win32_R_WinnerOnline_IDN\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Italian|Win32'">
+    <OutDir>.\QuestLoader___Win32_D_Gameforge4D_Italian\</OutDir>
+    <IntDir>.\QuestLoader___Win32_D_Gameforge4D_Italian\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='D_Arario_Jpn|Win32'">
+    <OutDir>.\QuestLoader___Win32_D_Arario_Jpn\</OutDir>
+    <IntDir>.\QuestLoader___Win32_D_Arario_Jpn\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Pol|Win32'">
+    <OutDir>.\QuestLoader___Win32_D_Gameforge4D_Pol\</OutDir>
+    <IntDir>.\QuestLoader___Win32_D_Gameforge4D_Pol\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='D_Wikigames_Eng|Win32'">
+    <OutDir>.\QuestLoader___Win32_D_Wikigames_Eng\</OutDir>
+    <IntDir>.\QuestLoader___Win32_D_Wikigames_Eng\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);../dx81SDK/include/</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);../../Lib/;../dx81SDK/lib/;../../../BuildResult/Lib/Debug/</LibraryPath>
+    <ExecutablePath>$(VC_ExecutablePath_x86);$(WindowsSDK_ExecutablePath);$(VS_ExecutablePath);$(MSBuild_ExecutablePath);$(SystemRoot)\SysWow64;$(FxCopDir);$(PATH);../../BisonFlex/bin/</ExecutablePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_WinnerOnline_SGP|Win32'">
+    <OutDir>.\QuestLoader___Win32_R_WinnerOnline_SGP\</OutDir>
+    <IntDir>.\QuestLoader___Win32_R_WinnerOnline_SGP\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_Yedang_Kor|Win32'">
+    <OutDir>.\QuestLoader___Win32_R_Yedang_Kor\</OutDir>
+    <IntDir>.\QuestLoader___Win32_R_Yedang_Kor\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='D_Yetime_Chn|Win32'">
+    <OutDir>.\QuestLoader___Win32_D_Yetime_Chn\</OutDir>
+    <IntDir>.\QuestLoader___Win32_D_Yetime_Chn\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_Arario_Jpn|Win32'">
+    <OutDir>.\QuestLoader___Win32_R_Arario_Jpn\</OutDir>
+    <IntDir>.\QuestLoader___Win32_R_Arario_Jpn\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_WinnerOnline_Tha|Win32'">
+    <OutDir>.\QuestLoader___Win32_R_WinnerOnline_Tha\</OutDir>
+    <IntDir>.\QuestLoader___Win32_R_WinnerOnline_Tha\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Esp|Win32'">
+    <OutDir>.\QuestLoader___Win32_R_Gameforge4D_Esp\</OutDir>
+    <IntDir>.\QuestLoader___Win32_R_Gameforge4D_Esp\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\..\..\output\QuestLoader\Debug\</OutDir>
+    <IntDir>.\..\..\output\QuestLoader\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_France|Win32'">
+    <OutDir>.\QuestLoader___Win32_R_Gameforge4D_France\</OutDir>
+    <IntDir>.\QuestLoader___Win32_R_Gameforge4D_France\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Italian|Win32'">
+    <OutDir>.\QuestLoader___Win32_R_Gameforge4D_Italian\</OutDir>
+    <IntDir>.\QuestLoader___Win32_R_Gameforge4D_Italian\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Eng|Win32'">
+    <OutDir>.\QuestLoader___Win32_R_Gameforge4D_Eng\</OutDir>
+    <IntDir>.\QuestLoader___Win32_R_Gameforge4D_Eng\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\..\..\output\QuestLoader\Release\</OutDir>
+    <IntDir>.\..\..\output\QuestLoader\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='D_Netpower_Tpe|Win32'">
+    <OutDir>.\QuestLoader___Win32_D_Netpower_Tpe\</OutDir>
+    <IntDir>.\QuestLoader___Win32_D_Netpower_Tpe\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='D_Test140|Win32'">
+    <OutDir>.\QuestLoader___Win32_D_Test140\</OutDir>
+    <IntDir>.\QuestLoader___Win32_D_Test140\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_Netpower_Tpe|Win32'">
+    <OutDir>.\QuestLoader___Win32_R_Netpower_Tpe\</OutDir>
+    <IntDir>.\QuestLoader___Win32_R_Netpower_Tpe\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_Intecom_Viet|Win32'">
+    <OutDir>.\QuestLoader___Win32_R_Intecom_Viet\</OutDir>
+    <IntDir>.\QuestLoader___Win32_R_Intecom_Viet\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_Test140|Win32'">
+    <OutDir>.\QuestLoader___Win32_R_Test140\</OutDir>
+    <IntDir>.\QuestLoader___Win32_R_Test140\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='D_Innova_Rus|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>.;..\..\Common;..\..\GameServer\CommonGameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;YY_NEVER_INTERACTIVE;WIN32;_ATUM_DATA_LOADER;INNOVA_RUS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\QuestLoader___Win32_D_Innova_Rus\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\QuestLoader___Win32_D_Innova_Rus\QuestLoader.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\QuestLoader___Win32_D_Innova_Rus\</ObjectFileName>
+      <ProgramDataBaseFileName>.\QuestLoader___Win32_D_Innova_Rus\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\QuestLoader___Win32_D_Innova_Rus\QuestLoader.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\QuestLoader___Win32_D_Innova_Rus\QuestLoader.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>..\..\Bin\Debug/QuestLoaderD.exe</OutputFile>
+      <AdditionalDependencies>libflex.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Esp|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>.;..\..\Common;..\..\GameServer\CommonGameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;YY_NEVER_INTERACTIVE;WIN32;_ATUM_DATA_LOADER;GAMEFORGE4D_ESP;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\QuestLoader___Win32_D_Gameforge4D_Esp\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\QuestLoader___Win32_D_Gameforge4D_Esp\QuestLoader.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\QuestLoader___Win32_D_Gameforge4D_Esp\</ObjectFileName>
+      <ProgramDataBaseFileName>.\QuestLoader___Win32_D_Gameforge4D_Esp\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\QuestLoader___Win32_D_Gameforge4D_Esp\QuestLoader.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\QuestLoader___Win32_D_Gameforge4D_Esp\QuestLoader.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>..\..\Bin\Debug/QuestLoaderD.exe</OutputFile>
+      <AdditionalDependencies>libflex.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Turkish|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>.;..\..\Common;..\..\GameServer\CommonGameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;YY_NEVER_INTERACTIVE;WIN32;_ATUM_DATA_LOADER;GAMEFORGE4D_TURKISH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\QuestLoader___Win32_R_Gameforge4D_Turkish\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\QuestLoader___Win32_R_Gameforge4D_Turkish\QuestLoader.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\QuestLoader___Win32_R_Gameforge4D_Turkish\</ObjectFileName>
+      <ProgramDataBaseFileName>.\QuestLoader___Win32_R_Gameforge4D_Turkish\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\QuestLoader___Win32_R_Gameforge4D_Turkish\QuestLoader.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\QuestLoader___Win32_R_Gameforge4D_Turkish\QuestLoader.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>..\..\Bin\Release/QuestLoader.exe</OutputFile>
+      <AdditionalDependencies>libflex.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='D_WinnerOnline_Tha|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>.;..\..\Common;..\..\GameServer\CommonGameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;YY_NEVER_INTERACTIVE;WIN32;_ATUM_DATA_LOADER;WINNERONLINE_THA;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\QuestLoader___Win32_D_WinnerOnline_Tha\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\QuestLoader___Win32_D_WinnerOnline_Tha\QuestLoader.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\QuestLoader___Win32_D_WinnerOnline_Tha\</ObjectFileName>
+      <ProgramDataBaseFileName>.\QuestLoader___Win32_D_WinnerOnline_Tha\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\QuestLoader___Win32_D_WinnerOnline_Tha\QuestLoader.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\QuestLoader___Win32_D_WinnerOnline_Tha\QuestLoader.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>..\..\Bin\Debug/QuestLoaderD.exe</OutputFile>
+      <AdditionalDependencies>libflex.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='D_Intecom_Viet|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>.;..\..\Common;..\..\GameServer\CommonGameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;YY_NEVER_INTERACTIVE;WIN32;_ATUM_DATA_LOADER;INTECOM_VIET;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\QuestLoader___Win32_D_Intecom_Viet\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\QuestLoader___Win32_D_Intecom_Viet\QuestLoader.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\QuestLoader___Win32_D_Intecom_Viet\</ObjectFileName>
+      <ProgramDataBaseFileName>.\QuestLoader___Win32_D_Intecom_Viet\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\QuestLoader___Win32_D_Intecom_Viet\QuestLoader.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\QuestLoader___Win32_D_Intecom_Viet\QuestLoader.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>..\..\Bin\Debug/QuestLoaderD.exe</OutputFile>
+      <AdditionalDependencies>libflex.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Deu|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>.;..\..\Common;..\..\GameServer\CommonGameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;YY_NEVER_INTERACTIVE;WIN32;_ATUM_DATA_LOADER;GAMEFORGE4D_DEU;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\QuestLoader___Win32_R_Gameforge4D_Deu\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\QuestLoader___Win32_R_Gameforge4D_Deu\QuestLoader.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\QuestLoader___Win32_R_Gameforge4D_Deu\</ObjectFileName>
+      <ProgramDataBaseFileName>.\QuestLoader___Win32_R_Gameforge4D_Deu\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\QuestLoader___Win32_R_Gameforge4D_Deu\QuestLoader.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\QuestLoader___Win32_R_Gameforge4D_Deu\QuestLoader.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>..\..\Bin\Release/QuestLoader.exe</OutputFile>
+      <AdditionalDependencies>libflex.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='D_LIN_Arg|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>.;..\..\Common;..\..\GameServer\CommonGameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;YY_NEVER_INTERACTIVE;WIN32;_ATUM_DATA_LOADER;LIN_ARG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\QuestLoader___Win32_D_LIN_Arg\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\QuestLoader___Win32_D_LIN_Arg\QuestLoader.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\QuestLoader___Win32_D_LIN_Arg\</ObjectFileName>
+      <ProgramDataBaseFileName>.\QuestLoader___Win32_D_LIN_Arg\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\QuestLoader___Win32_D_LIN_Arg\QuestLoader.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\QuestLoader___Win32_D_LIN_Arg\QuestLoader.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>..\..\Bin\Debug/QuestLoaderD.exe</OutputFile>
+      <AdditionalDependencies>libflex.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='D_WinnerOnline_SGP|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>.;..\..\Common;..\..\GameServer\CommonGameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;YY_NEVER_INTERACTIVE;WIN32;_ATUM_DATA_LOADER;WINNERONLINE_SGP;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\QuestLoader___Win32_D_WinnerOnline_SGP\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\QuestLoader___Win32_D_WinnerOnline_SGP\QuestLoader.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\QuestLoader___Win32_D_WinnerOnline_SGP\</ObjectFileName>
+      <ProgramDataBaseFileName>.\QuestLoader___Win32_D_WinnerOnline_SGP\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\QuestLoader___Win32_D_WinnerOnline_SGP\QuestLoader.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\QuestLoader___Win32_D_WinnerOnline_SGP\QuestLoader.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>..\..\Bin\Debug/QuestLoaderD.exe</OutputFile>
+      <AdditionalDependencies>libflex.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='R_LIN_Arg|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>.;..\..\Common;..\..\GameServer\CommonGameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;YY_NEVER_INTERACTIVE;WIN32;_ATUM_DATA_LOADER;LIN_ARG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\QuestLoader___Win32_R_LIN_Arg\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\QuestLoader___Win32_R_LIN_Arg\QuestLoader.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\QuestLoader___Win32_R_LIN_Arg\</ObjectFileName>
+      <ProgramDataBaseFileName>.\QuestLoader___Win32_R_LIN_Arg\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\QuestLoader___Win32_R_LIN_Arg\QuestLoader.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\QuestLoader___Win32_R_LIN_Arg\QuestLoader.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>..\..\Bin\Release/QuestLoader.exe</OutputFile>
+      <AdditionalDependencies>libflex.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='R_Innova_Rus|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>.;..\..\Common;..\..\GameServer\CommonGameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;YY_NEVER_INTERACTIVE;WIN32;_ATUM_DATA_LOADER;INNOVA_RUS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\QuestLoader___Win32_R_Innova_Rus\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\QuestLoader___Win32_R_Innova_Rus\QuestLoader.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\QuestLoader___Win32_R_Innova_Rus\</ObjectFileName>
+      <ProgramDataBaseFileName>.\QuestLoader___Win32_R_Innova_Rus\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\QuestLoader___Win32_R_Innova_Rus\QuestLoader.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\QuestLoader___Win32_R_Innova_Rus\QuestLoader.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>..\..\Bin\Release/QuestLoader.exe</OutputFile>
+      <AdditionalDependencies>libflex.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='R_Wikigames_Eng|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <AdditionalIncludeDirectories>.;..\..\..\Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_ENG;NDEBUG;_WINDOWS;YY_NEVER_INTERACTIVE;WIN32;_ATUM_DATA_LOADER;WIKIGAMES_ENG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>$(IntDir)</PrecompiledHeaderOutputFile>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)</ProgramDataBaseFileName>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\QuestLoader___Win32_R_Wikigames_Eng\QuestLoader.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>$(IntDir)\QuestLoader.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalDependencies>libflex.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='R_Evo_ARENA|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <AdditionalIncludeDirectories>.;..\..\..\Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_ENG;NDEBUG;_WINDOWS;YY_NEVER_INTERACTIVE;WIN32;_ATUM_DATA_LOADER;WIKIGAMES_ENG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>$(IntDir)</PrecompiledHeaderOutputFile>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)</ProgramDataBaseFileName>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\QuestLoader___Win32_R_Wikigames_Eng\QuestLoader.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>$(IntDir)\QuestLoader.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalDependencies>libflex.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Development|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <AdditionalIncludeDirectories>.;..\..\..\Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>DEV;NDEBUG;_WINDOWS;YY_NEVER_INTERACTIVE;WIN32;_ATUM_DATA_LOADER;WIKIGAMES_ENG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>$(IntDir)</PrecompiledHeaderOutputFile>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)</ProgramDataBaseFileName>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\QuestLoader___Win32_R_Wikigames_Eng\QuestLoader.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>$(IntDir)\QuestLoader.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalDependencies>libflex.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='R_Arena_Wikigames_Eng|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <AdditionalIncludeDirectories>.;..\..\..\Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;YY_NEVER_INTERACTIVE;WIN32;_ATUM_DATA_LOADER;WIKIGAMES_ENG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>$(IntDir)</PrecompiledHeaderOutputFile>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)</ProgramDataBaseFileName>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\QuestLoader___Win32_R_Wikigames_Eng\QuestLoader.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>$(IntDir)\QuestLoader.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalDependencies>libflex.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='D_WinnerOnline_IDN|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>.;..\..\Common;..\..\GameServer\CommonGameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;YY_NEVER_INTERACTIVE;WIN32;_ATUM_DATA_LOADER;WINNERONLINE_IDN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\QuestLoader___Win32_D_WinnerOnline_IDN\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\QuestLoader___Win32_D_WinnerOnline_IDN\QuestLoader.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\QuestLoader___Win32_D_WinnerOnline_IDN\</ObjectFileName>
+      <ProgramDataBaseFileName>.\QuestLoader___Win32_D_WinnerOnline_IDN\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\QuestLoader___Win32_D_WinnerOnline_IDN\QuestLoader.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\QuestLoader___Win32_D_WinnerOnline_IDN\QuestLoader.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>..\..\Bin\Debug/QuestLoaderD.exe</OutputFile>
+      <AdditionalDependencies>libflex.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Deu|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>.;..\..\Common;..\..\GameServer\CommonGameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;YY_NEVER_INTERACTIVE;WIN32;_ATUM_DATA_LOADER;GAMEFORGE4D_DEU;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\QuestLoader___Win32_D_Gameforge4D_Deu\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\QuestLoader___Win32_D_Gameforge4D_Deu\QuestLoader.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\QuestLoader___Win32_D_Gameforge4D_Deu\</ObjectFileName>
+      <ProgramDataBaseFileName>.\QuestLoader___Win32_D_Gameforge4D_Deu\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\QuestLoader___Win32_D_Gameforge4D_Deu\QuestLoader.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\QuestLoader___Win32_D_Gameforge4D_Deu\QuestLoader.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>..\..\Bin\Debug/QuestLoaderD.exe</OutputFile>
+      <AdditionalDependencies>libflex.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_France|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>.;..\..\Common;..\..\GameServer\CommonGameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;YY_NEVER_INTERACTIVE;WIN32;_ATUM_DATA_LOADER;GAMEFORGE4D_FRANCE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\QuestLoader___Win32_D_Gameforge4D_France\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\QuestLoader___Win32_D_Gameforge4D_France\QuestLoader.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\QuestLoader___Win32_D_Gameforge4D_France\</ObjectFileName>
+      <ProgramDataBaseFileName>.\QuestLoader___Win32_D_Gameforge4D_France\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\QuestLoader___Win32_D_Gameforge4D_France\QuestLoader.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\QuestLoader___Win32_D_Gameforge4D_France\QuestLoader.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>..\..\Bin\Debug/QuestLoaderD.exe</OutputFile>
+      <AdditionalDependencies>libflex.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Eng|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>.;..\..\Common;..\..\GameServer\CommonGameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;YY_NEVER_INTERACTIVE;WIN32;_ATUM_DATA_LOADER;GAMEFORGE4D_ENG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\QuestLoader___Win32_D_Gameforge4D_Eng\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\QuestLoader___Win32_D_Gameforge4D_Eng\QuestLoader.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\QuestLoader___Win32_D_Gameforge4D_Eng\</ObjectFileName>
+      <ProgramDataBaseFileName>.\QuestLoader___Win32_D_Gameforge4D_Eng\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\QuestLoader___Win32_D_Gameforge4D_Eng\QuestLoader.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\QuestLoader___Win32_D_Gameforge4D_Eng\QuestLoader.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>..\..\Bin\Debug/QuestLoaderD.exe</OutputFile>
+      <AdditionalDependencies>libflex.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='D_Yedang_Kor|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>.;..\..\Common;..\..\GameServer\CommonGameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;YY_NEVER_INTERACTIVE;WIN32;_ATUM_DATA_LOADER;YEDANG_KOR;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\QuestLoader___Win32_D_Yedang_Kor\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\QuestLoader___Win32_D_Yedang_Kor\QuestLoader.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\QuestLoader___Win32_D_Yedang_Kor\</ObjectFileName>
+      <ProgramDataBaseFileName>.\QuestLoader___Win32_D_Yedang_Kor\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\QuestLoader___Win32_D_Yedang_Kor\QuestLoader.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\QuestLoader___Win32_D_Yedang_Kor\QuestLoader.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>..\..\Bin\Debug/QuestLoaderD.exe</OutputFile>
+      <AdditionalDependencies>libflex.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='R_Yetime_Chn|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>.;..\..\Common;..\..\GameServer\CommonGameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;YY_NEVER_INTERACTIVE;WIN32;_ATUM_DATA_LOADER;YETIME_CHN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\QuestLoader___Win32_R_Yetime_Chn\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\QuestLoader___Win32_R_Yetime_Chn\QuestLoader.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\QuestLoader___Win32_R_Yetime_Chn\</ObjectFileName>
+      <ProgramDataBaseFileName>.\QuestLoader___Win32_R_Yetime_Chn\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\QuestLoader___Win32_R_Yetime_Chn\QuestLoader.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\QuestLoader___Win32_R_Yetime_Chn\QuestLoader.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>..\..\Bin\Release/QuestLoader.exe</OutputFile>
+      <AdditionalDependencies>libflex.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Turkish|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>.;..\..\Common;..\..\GameServer\CommonGameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;YY_NEVER_INTERACTIVE;WIN32;_ATUM_DATA_LOADER;GAMEFORGE4D_TURKISH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\QuestLoader___Win32_D_Gameforge4D_Turkish\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\QuestLoader___Win32_D_Gameforge4D_Turkish\QuestLoader.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\QuestLoader___Win32_D_Gameforge4D_Turkish\</ObjectFileName>
+      <ProgramDataBaseFileName>.\QuestLoader___Win32_D_Gameforge4D_Turkish\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\QuestLoader___Win32_D_Gameforge4D_Turkish\QuestLoader.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\QuestLoader___Win32_D_Gameforge4D_Turkish\QuestLoader.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>..\..\Bin\Debug/QuestLoaderD.exe</OutputFile>
+      <AdditionalDependencies>libflex.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Pol|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>.;..\..\Common;..\..\GameServer\CommonGameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;YY_NEVER_INTERACTIVE;WIN32;_ATUM_DATA_LOADER;GAMEFORGE4D_POL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\QuestLoader___Win32_R_Gameforge4D_Pol\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\QuestLoader___Win32_R_Gameforge4D_Pol\QuestLoader.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\QuestLoader___Win32_R_Gameforge4D_Pol\</ObjectFileName>
+      <ProgramDataBaseFileName>.\QuestLoader___Win32_R_Gameforge4D_Pol\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\QuestLoader___Win32_R_Gameforge4D_Pol\QuestLoader.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\QuestLoader___Win32_R_Gameforge4D_Pol\QuestLoader.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>..\..\Bin\Release/QuestLoader.exe</OutputFile>
+      <AdditionalDependencies>libflex.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='R_WinnerOnline_IDN|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>.;..\..\Common;..\..\GameServer\CommonGameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;YY_NEVER_INTERACTIVE;WIN32;_ATUM_DATA_LOADER;WINNERONLINE_IDN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\QuestLoader___Win32_R_WinnerOnline_IDN\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\QuestLoader___Win32_R_WinnerOnline_IDN\QuestLoader.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\QuestLoader___Win32_R_WinnerOnline_IDN\</ObjectFileName>
+      <ProgramDataBaseFileName>.\QuestLoader___Win32_R_WinnerOnline_IDN\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\QuestLoader___Win32_R_WinnerOnline_IDN\QuestLoader.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\QuestLoader___Win32_R_WinnerOnline_IDN\QuestLoader.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>..\..\Bin\Release/QuestLoader.exe</OutputFile>
+      <AdditionalDependencies>libflex.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Italian|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>.;..\..\Common;..\..\GameServer\CommonGameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;YY_NEVER_INTERACTIVE;WIN32;_ATUM_DATA_LOADER;GAMEFORGE4D_ITALIAN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\QuestLoader___Win32_D_Gameforge4D_Italian\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\QuestLoader___Win32_D_Gameforge4D_Italian\QuestLoader.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\QuestLoader___Win32_D_Gameforge4D_Italian\</ObjectFileName>
+      <ProgramDataBaseFileName>.\QuestLoader___Win32_D_Gameforge4D_Italian\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\QuestLoader___Win32_D_Gameforge4D_Italian\QuestLoader.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\QuestLoader___Win32_D_Gameforge4D_Italian\QuestLoader.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>..\..\Bin\Debug/QuestLoaderD.exe</OutputFile>
+      <AdditionalDependencies>libflex.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='D_Arario_Jpn|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>.;..\..\Common;..\..\GameServer\CommonGameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;YY_NEVER_INTERACTIVE;WIN32;_ATUM_DATA_LOADER;ARARIO_JPN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\QuestLoader___Win32_D_Arario_Jpn\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\QuestLoader___Win32_D_Arario_Jpn\QuestLoader.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\QuestLoader___Win32_D_Arario_Jpn\</ObjectFileName>
+      <ProgramDataBaseFileName>.\QuestLoader___Win32_D_Arario_Jpn\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\QuestLoader___Win32_D_Arario_Jpn\QuestLoader.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\QuestLoader___Win32_D_Arario_Jpn\QuestLoader.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>..\..\Bin\Debug/QuestLoaderD.exe</OutputFile>
+      <AdditionalDependencies>libflex.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Pol|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>.;..\..\Common;..\..\GameServer\CommonGameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;YY_NEVER_INTERACTIVE;WIN32;_ATUM_DATA_LOADER;GAMEFORGE4D_POL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\QuestLoader___Win32_D_Gameforge4D_Pol\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\QuestLoader___Win32_D_Gameforge4D_Pol\QuestLoader.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\QuestLoader___Win32_D_Gameforge4D_Pol\</ObjectFileName>
+      <ProgramDataBaseFileName>.\QuestLoader___Win32_D_Gameforge4D_Pol\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\QuestLoader___Win32_D_Gameforge4D_Pol\QuestLoader.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\QuestLoader___Win32_D_Gameforge4D_Pol\QuestLoader.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>..\..\Bin\Debug/QuestLoaderD.exe</OutputFile>
+      <AdditionalDependencies>libflex.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='D_Wikigames_Eng|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>.;..\..\Common;..\..\GameServer\CommonGameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;YY_NEVER_INTERACTIVE;WIN32;_ATUM_DATA_LOADER;WIKIGAMES_ENG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\QuestLoader___Win32_D_Wikigames_Eng\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\QuestLoader___Win32_D_Wikigames_Eng\QuestLoader.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\QuestLoader___Win32_D_Wikigames_Eng\</ObjectFileName>
+      <ProgramDataBaseFileName>.\QuestLoader___Win32_D_Wikigames_Eng\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\QuestLoader___Win32_D_Wikigames_Eng\QuestLoader.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\QuestLoader___Win32_D_Wikigames_Eng\QuestLoader.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>../../../BuildResult/Tools/Debug/QuestLoader.exe</OutputFile>
+      <AdditionalDependencies>libflex.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <IgnoreSpecificDefaultLibraries>msvcprtd.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='R_WinnerOnline_SGP|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>.;..\..\Common;..\..\GameServer\CommonGameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;YY_NEVER_INTERACTIVE;WIN32;_ATUM_DATA_LOADER;WINNERONLINE_SGP;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\QuestLoader___Win32_R_WinnerOnline_SGP\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\QuestLoader___Win32_R_WinnerOnline_SGP\QuestLoader.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\QuestLoader___Win32_R_WinnerOnline_SGP\</ObjectFileName>
+      <ProgramDataBaseFileName>.\QuestLoader___Win32_R_WinnerOnline_SGP\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\QuestLoader___Win32_R_WinnerOnline_SGP\QuestLoader.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\QuestLoader___Win32_R_WinnerOnline_SGP\QuestLoader.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>..\..\Bin\Release/QuestLoader.exe</OutputFile>
+      <AdditionalDependencies>libflex.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='R_Yedang_Kor|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>.;..\..\Common;..\..\GameServer\CommonGameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;YY_NEVER_INTERACTIVE;WIN32;_ATUM_DATA_LOADER;YEDANG_KOR;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\QuestLoader___Win32_R_Yedang_Kor\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\QuestLoader___Win32_R_Yedang_Kor\QuestLoader.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\QuestLoader___Win32_R_Yedang_Kor\</ObjectFileName>
+      <ProgramDataBaseFileName>.\QuestLoader___Win32_R_Yedang_Kor\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\QuestLoader___Win32_R_Yedang_Kor\QuestLoader.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\QuestLoader___Win32_R_Yedang_Kor\QuestLoader.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>..\..\Bin\Release/QuestLoader.exe</OutputFile>
+      <AdditionalDependencies>libflex.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='D_Yetime_Chn|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>.;..\..\Common;..\..\GameServer\CommonGameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;YY_NEVER_INTERACTIVE;WIN32;_ATUM_DATA_LOADER;YETIME_CHN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\QuestLoader___Win32_D_Yetime_Chn\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\QuestLoader___Win32_D_Yetime_Chn\QuestLoader.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\QuestLoader___Win32_D_Yetime_Chn\</ObjectFileName>
+      <ProgramDataBaseFileName>.\QuestLoader___Win32_D_Yetime_Chn\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\QuestLoader___Win32_D_Yetime_Chn\QuestLoader.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\QuestLoader___Win32_D_Yetime_Chn\QuestLoader.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>..\..\Bin\Debug/QuestLoaderD.exe</OutputFile>
+      <AdditionalDependencies>libflex.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='R_Arario_Jpn|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>.;..\..\Common;..\..\GameServer\CommonGameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;YY_NEVER_INTERACTIVE;WIN32;_ATUM_DATA_LOADER;ARARIO_JPN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\QuestLoader___Win32_R_Arario_Jpn\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\QuestLoader___Win32_R_Arario_Jpn\QuestLoader.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\QuestLoader___Win32_R_Arario_Jpn\</ObjectFileName>
+      <ProgramDataBaseFileName>.\QuestLoader___Win32_R_Arario_Jpn\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\QuestLoader___Win32_R_Arario_Jpn\QuestLoader.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\QuestLoader___Win32_R_Arario_Jpn\QuestLoader.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>..\..\Bin\Release/QuestLoader.exe</OutputFile>
+      <AdditionalDependencies>libflex.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='R_WinnerOnline_Tha|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>.;..\..\Common;..\..\GameServer\CommonGameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;YY_NEVER_INTERACTIVE;WIN32;_ATUM_DATA_LOADER;WINNERONLINE_THA;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\QuestLoader___Win32_R_WinnerOnline_Tha\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\QuestLoader___Win32_R_WinnerOnline_Tha\QuestLoader.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\QuestLoader___Win32_R_WinnerOnline_Tha\</ObjectFileName>
+      <ProgramDataBaseFileName>.\QuestLoader___Win32_R_WinnerOnline_Tha\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\QuestLoader___Win32_R_WinnerOnline_Tha\QuestLoader.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\QuestLoader___Win32_R_WinnerOnline_Tha\QuestLoader.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>..\..\Bin\Release/QuestLoader.exe</OutputFile>
+      <AdditionalDependencies>libflex.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Esp|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>.;..\..\Common;..\..\GameServer\CommonGameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;YY_NEVER_INTERACTIVE;WIN32;_ATUM_DATA_LOADER;GAMEFORGE4D_ESP;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\QuestLoader___Win32_R_Gameforge4D_Esp\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\QuestLoader___Win32_R_Gameforge4D_Esp\QuestLoader.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\QuestLoader___Win32_R_Gameforge4D_Esp\</ObjectFileName>
+      <ProgramDataBaseFileName>.\QuestLoader___Win32_R_Gameforge4D_Esp\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\QuestLoader___Win32_R_Gameforge4D_Esp\QuestLoader.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\QuestLoader___Win32_R_Gameforge4D_Esp\QuestLoader.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>..\..\Bin\Release/QuestLoader.exe</OutputFile>
+      <AdditionalDependencies>libflex.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>.;..\..\Common;..\..\GameServer\CommonGameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;YY_NEVER_INTERACTIVE;WIN32;_ATUM_DATA_LOADER;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\..\..\output\QuestLoader\Debug\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\..\..\output\QuestLoader\Debug\QuestLoader.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\..\..\output\QuestLoader\Debug\</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\..\output\QuestLoader\Debug\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\..\..\output\QuestLoader\Debug\QuestLoader.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\..\output\QuestLoader\Debug\QuestLoader.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>..\..\Bin\Debug/QuestLoaderD.exe</OutputFile>
+      <AdditionalDependencies>libflex.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_France|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>.;..\..\Common;..\..\GameServer\CommonGameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;YY_NEVER_INTERACTIVE;WIN32;_ATUM_DATA_LOADER;GAMEFORGE4D_FRANCE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\QuestLoader___Win32_R_Gameforge4D_France\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\QuestLoader___Win32_R_Gameforge4D_France\QuestLoader.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\QuestLoader___Win32_R_Gameforge4D_France\</ObjectFileName>
+      <ProgramDataBaseFileName>.\QuestLoader___Win32_R_Gameforge4D_France\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\QuestLoader___Win32_R_Gameforge4D_France\QuestLoader.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\QuestLoader___Win32_R_Gameforge4D_France\QuestLoader.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>..\..\Bin\Release/QuestLoader.exe</OutputFile>
+      <AdditionalDependencies>libflex.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Italian|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>.;..\..\Common;..\..\GameServer\CommonGameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;YY_NEVER_INTERACTIVE;WIN32;_ATUM_DATA_LOADER;GAMEFORGE4D_ITALIAN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\QuestLoader___Win32_R_Gameforge4D_Italian\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\QuestLoader___Win32_R_Gameforge4D_Italian\QuestLoader.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\QuestLoader___Win32_R_Gameforge4D_Italian\</ObjectFileName>
+      <ProgramDataBaseFileName>.\QuestLoader___Win32_R_Gameforge4D_Italian\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\QuestLoader___Win32_R_Gameforge4D_Italian\QuestLoader.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\QuestLoader___Win32_R_Gameforge4D_Italian\QuestLoader.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>..\..\Bin\Release/QuestLoader.exe</OutputFile>
+      <AdditionalDependencies>libflex.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Eng|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>.;..\..\Common;..\..\GameServer\CommonGameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;YY_NEVER_INTERACTIVE;WIN32;_ATUM_DATA_LOADER;GAMEFORGE4D_ENG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\QuestLoader___Win32_R_Gameforge4D_Eng\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\QuestLoader___Win32_R_Gameforge4D_Eng\QuestLoader.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\QuestLoader___Win32_R_Gameforge4D_Eng\</ObjectFileName>
+      <ProgramDataBaseFileName>.\QuestLoader___Win32_R_Gameforge4D_Eng\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\QuestLoader___Win32_R_Gameforge4D_Eng\QuestLoader.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\QuestLoader___Win32_R_Gameforge4D_Eng\QuestLoader.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>..\..\Bin\Release/QuestLoader.exe</OutputFile>
+      <AdditionalDependencies>libflex.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>.;..\..\Common;..\..\GameServer\CommonGameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;YY_NEVER_INTERACTIVE;WIN32;_ATUM_DATA_LOADER;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\..\..\output\QuestLoader\Release\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\..\..\output\QuestLoader\Release\QuestLoader.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\..\..\output\QuestLoader\Release\</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\..\output\QuestLoader\Release\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\..\..\output\QuestLoader\Release\QuestLoader.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\..\output\QuestLoader\Release\QuestLoader.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>..\..\Bin\Release/QuestLoader.exe</OutputFile>
+      <AdditionalDependencies>libflex.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='D_Netpower_Tpe|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>.;..\..\Common;..\..\GameServer\CommonGameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;YY_NEVER_INTERACTIVE;WIN32;_ATUM_DATA_LOADER;NETPOWER_TPE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\QuestLoader___Win32_D_Netpower_Tpe\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\QuestLoader___Win32_D_Netpower_Tpe\QuestLoader.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\QuestLoader___Win32_D_Netpower_Tpe\</ObjectFileName>
+      <ProgramDataBaseFileName>.\QuestLoader___Win32_D_Netpower_Tpe\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\QuestLoader___Win32_D_Netpower_Tpe\QuestLoader.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\QuestLoader___Win32_D_Netpower_Tpe\QuestLoader.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>..\..\Bin\Debug/QuestLoaderD.exe</OutputFile>
+      <AdditionalDependencies>libflex.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='D_Test140|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>.;..\..\Common;..\..\GameServer\CommonGameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;YY_NEVER_INTERACTIVE;WIN32;_ATUM_DATA_LOADER;TEST140;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\QuestLoader___Win32_D_Test140\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\QuestLoader___Win32_D_Test140\QuestLoader.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\QuestLoader___Win32_D_Test140\</ObjectFileName>
+      <ProgramDataBaseFileName>.\QuestLoader___Win32_D_Test140\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\QuestLoader___Win32_D_Test140\QuestLoader.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\QuestLoader___Win32_D_Test140\QuestLoader.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>..\..\Bin\Debug/QuestLoaderD.exe</OutputFile>
+      <AdditionalDependencies>libflex.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='R_Netpower_Tpe|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>.;..\..\Common;..\..\GameServer\CommonGameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;YY_NEVER_INTERACTIVE;WIN32;_ATUM_DATA_LOADER;NETPOWER_TPE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\QuestLoader___Win32_R_Netpower_Tpe\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\QuestLoader___Win32_R_Netpower_Tpe\QuestLoader.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\QuestLoader___Win32_R_Netpower_Tpe\</ObjectFileName>
+      <ProgramDataBaseFileName>.\QuestLoader___Win32_R_Netpower_Tpe\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\QuestLoader___Win32_R_Netpower_Tpe\QuestLoader.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\QuestLoader___Win32_R_Netpower_Tpe\QuestLoader.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>..\..\Bin\Release/QuestLoader.exe</OutputFile>
+      <AdditionalDependencies>libflex.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='R_Intecom_Viet|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>.;..\..\Common;..\..\GameServer\CommonGameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;YY_NEVER_INTERACTIVE;WIN32;_ATUM_DATA_LOADER;INTECOM_VIET;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\QuestLoader___Win32_R_Intecom_Viet\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\QuestLoader___Win32_R_Intecom_Viet\QuestLoader.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\QuestLoader___Win32_R_Intecom_Viet\</ObjectFileName>
+      <ProgramDataBaseFileName>.\QuestLoader___Win32_R_Intecom_Viet\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\QuestLoader___Win32_R_Intecom_Viet\QuestLoader.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\QuestLoader___Win32_R_Intecom_Viet\QuestLoader.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>..\..\Bin\Release/QuestLoader.exe</OutputFile>
+      <AdditionalDependencies>libflex.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='R_Test140|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>.;..\..\Common;..\..\GameServer\CommonGameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;YY_NEVER_INTERACTIVE;WIN32;_ATUM_DATA_LOADER;TEST140;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\QuestLoader___Win32_R_Test140\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\QuestLoader___Win32_R_Test140\QuestLoader.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\QuestLoader___Win32_R_Test140\</ObjectFileName>
+      <ProgramDataBaseFileName>.\QuestLoader___Win32_R_Test140\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\QuestLoader___Win32_R_Test140\QuestLoader.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\QuestLoader___Win32_R_Test140\QuestLoader.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>..\..\Bin\Release/QuestLoader.exe</OutputFile>
+      <AdditionalDependencies>libflex.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Common\Quest.cpp" />
+    <ClCompile Include="..\..\..\Common\UserVariable.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="QuestLoader.cpp" />
+    <ClCompile Include="QuestLoader.l.cpp" />
+    <ClCompile Include="QuestLoaderParser.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Common\Quest.h" />
+    <ClInclude Include="..\..\..\Common\QuestLoaderParser.h" />
+    <ClInclude Include="..\..\..\Common\UserVariable.h" />
+    <ClInclude Include="QuestLoader.cpp.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="QuestLoader.l">
+      <Command Condition="'$(Configuration)|$(Platform)'=='D_Innova_Rus|Win32'">flex.exe --wincompat -PQuestLoader -t %(Filename).l &gt; %(Filename).l.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='D_Innova_Rus|Win32'">Building Lexer</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='D_Innova_Rus|Win32'">$(InputName).l.cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Esp|Win32'">flex.exe --wincompat -PQuestLoader -t %(Filename).l &gt; %(Filename).l.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Esp|Win32'">Building Lexer</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Esp|Win32'">$(InputName).l.cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Turkish|Win32'">flex.exe --wincompat -PQuestLoader -t %(Filename).l &gt; %(Filename).l.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Turkish|Win32'">Building Lexer</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Turkish|Win32'">$(InputName).l.cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='D_WinnerOnline_Tha|Win32'">flex.exe --wincompat -PQuestLoader -t %(Filename).l &gt; %(Filename).l.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='D_WinnerOnline_Tha|Win32'">Building Lexer</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='D_WinnerOnline_Tha|Win32'">$(InputName).l.cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='D_Intecom_Viet|Win32'">flex.exe --wincompat -PQuestLoader -t %(Filename).l &gt; %(Filename).l.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='D_Intecom_Viet|Win32'">Building Lexer</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='D_Intecom_Viet|Win32'">$(InputName).l.cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Deu|Win32'">flex.exe --wincompat -PQuestLoader -t %(Filename).l &gt; %(Filename).l.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Deu|Win32'">Building Lexer</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Deu|Win32'">$(InputName).l.cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='D_LIN_Arg|Win32'">flex.exe --wincompat -PQuestLoader -t %(Filename).l &gt; %(Filename).l.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='D_LIN_Arg|Win32'">Building Lexer</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='D_LIN_Arg|Win32'">$(InputName).l.cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='D_WinnerOnline_SGP|Win32'">flex.exe --wincompat -PQuestLoader -t %(Filename).l &gt; %(Filename).l.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='D_WinnerOnline_SGP|Win32'">Building Lexer</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='D_WinnerOnline_SGP|Win32'">$(InputName).l.cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='R_LIN_Arg|Win32'">flex.exe --wincompat -PQuestLoader -t %(Filename).l &gt; %(Filename).l.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='R_LIN_Arg|Win32'">Building Lexer</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='R_LIN_Arg|Win32'">$(InputName).l.cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='R_Innova_Rus|Win32'">flex.exe --wincompat -PQuestLoader -t %(Filename).l &gt; %(Filename).l.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='R_Innova_Rus|Win32'">Building Lexer</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='R_Innova_Rus|Win32'">$(InputName).l.cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='R_Wikigames_Eng|Win32'">flex.exe --wincompat -PQuestLoader -t %(Filename).l &gt; %(Filename).l.cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='R_Evo_ARENA|Win32'">flex.exe --wincompat -PQuestLoader -t %(Filename).l &gt; %(Filename).l.cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Development|Win32'">flex.exe --wincompat -PQuestLoader -t %(Filename).l &gt; %(Filename).l.cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='R_Arena_Wikigames_Eng|Win32'">flex.exe --wincompat -PQuestLoader -t %(Filename).l &gt; %(Filename).l.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='R_Wikigames_Eng|Win32'">Building Lexer</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='R_Evo_ARENA|Win32'">Building Lexer</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Development|Win32'">Building Lexer</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='R_Arena_Wikigames_Eng|Win32'">Building Lexer</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='R_Wikigames_Eng|Win32'">$(InputName).l.cpp;%(Outputs)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='R_Evo_ARENA|Win32'">$(InputName).l.cpp;%(Outputs)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Development|Win32'">$(InputName).l.cpp;%(Outputs)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='R_Arena_Wikigames_Eng|Win32'">$(InputName).l.cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='D_WinnerOnline_IDN|Win32'">flex.exe --wincompat -PQuestLoader -t %(Filename).l &gt; %(Filename).l.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='D_WinnerOnline_IDN|Win32'">Building Lexer</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='D_WinnerOnline_IDN|Win32'">$(InputName).l.cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Deu|Win32'">flex.exe --wincompat -PQuestLoader -t %(Filename).l &gt; %(Filename).l.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Deu|Win32'">Building Lexer</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Deu|Win32'">$(InputName).l.cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_France|Win32'">flex.exe --wincompat -PQuestLoader -t %(Filename).l &gt; %(Filename).l.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_France|Win32'">Building Lexer</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_France|Win32'">$(InputName).l.cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Eng|Win32'">flex.exe --wincompat -PQuestLoader -t %(Filename).l &gt; %(Filename).l.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Eng|Win32'">Building Lexer</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Eng|Win32'">$(InputName).l.cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='D_Yedang_Kor|Win32'">flex.exe --wincompat -PQuestLoader -t %(Filename).l &gt; %(Filename).l.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='D_Yedang_Kor|Win32'">Building Lexer</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='D_Yedang_Kor|Win32'">$(InputName).l.cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='R_Yetime_Chn|Win32'">flex.exe --wincompat -PQuestLoader -t %(Filename).l &gt; %(Filename).l.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='R_Yetime_Chn|Win32'">Building Lexer</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='R_Yetime_Chn|Win32'">$(InputName).l.cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Turkish|Win32'">flex.exe --wincompat -PQuestLoader -t %(Filename).l &gt; %(Filename).l.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Turkish|Win32'">Building Lexer</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Turkish|Win32'">$(InputName).l.cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Pol|Win32'">flex.exe --wincompat -PQuestLoader -t %(Filename).l &gt; %(Filename).l.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Pol|Win32'">Building Lexer</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Pol|Win32'">$(InputName).l.cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='R_WinnerOnline_IDN|Win32'">flex.exe --wincompat -PQuestLoader -t %(Filename).l &gt; %(Filename).l.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='R_WinnerOnline_IDN|Win32'">Building Lexer</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='R_WinnerOnline_IDN|Win32'">$(InputName).l.cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Italian|Win32'">flex.exe --wincompat -PQuestLoader -t %(Filename).l &gt; %(Filename).l.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Italian|Win32'">Building Lexer</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Italian|Win32'">$(InputName).l.cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='D_Arario_Jpn|Win32'">flex.exe --wincompat -PQuestLoader -t %(Filename).l &gt; %(Filename).l.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='D_Arario_Jpn|Win32'">Building Lexer</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='D_Arario_Jpn|Win32'">$(InputName).l.cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Pol|Win32'">flex.exe --wincompat -PQuestLoader -t %(Filename).l &gt; %(Filename).l.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Pol|Win32'">Building Lexer</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Pol|Win32'">$(InputName).l.cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='D_Wikigames_Eng|Win32'">flex.exe --wincompat -PQuestLoader -t %(Filename).l &gt; %(Filename).l.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='D_Wikigames_Eng|Win32'">Building Lexer</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='D_Wikigames_Eng|Win32'">$(InputName).l.cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='R_WinnerOnline_SGP|Win32'">flex.exe --wincompat -PQuestLoader -t %(Filename).l &gt; %(Filename).l.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='R_WinnerOnline_SGP|Win32'">Building Lexer</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='R_WinnerOnline_SGP|Win32'">$(InputName).l.cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='R_Yedang_Kor|Win32'">flex.exe --wincompat -PQuestLoader -t %(Filename).l &gt; %(Filename).l.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='R_Yedang_Kor|Win32'">Building Lexer</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='R_Yedang_Kor|Win32'">$(InputName).l.cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='D_Yetime_Chn|Win32'">flex.exe --wincompat -PQuestLoader -t %(Filename).l &gt; %(Filename).l.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='D_Yetime_Chn|Win32'">Building Lexer</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='D_Yetime_Chn|Win32'">$(InputName).l.cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='R_Arario_Jpn|Win32'">flex.exe --wincompat -PQuestLoader -t %(Filename).l &gt; %(Filename).l.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='R_Arario_Jpn|Win32'">Building Lexer</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='R_Arario_Jpn|Win32'">$(InputName).l.cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='R_WinnerOnline_Tha|Win32'">flex.exe --wincompat -PQuestLoader -t %(Filename).l &gt; %(Filename).l.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='R_WinnerOnline_Tha|Win32'">Building Lexer</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='R_WinnerOnline_Tha|Win32'">$(InputName).l.cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Esp|Win32'">flex.exe --wincompat -PQuestLoader -t %(Filename).l &gt; %(Filename).l.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Esp|Win32'">Building Lexer</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Esp|Win32'">$(InputName).l.cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">flex.exe --wincompat -PQuestLoader -t %(Filename).l &gt; %(Filename).l.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Lexer</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(InputName).l.cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_France|Win32'">flex.exe --wincompat -PQuestLoader -t %(Filename).l &gt; %(Filename).l.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_France|Win32'">Building Lexer</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_France|Win32'">$(InputName).l.cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Italian|Win32'">flex.exe --wincompat -PQuestLoader -t %(Filename).l &gt; %(Filename).l.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Italian|Win32'">Building Lexer</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Italian|Win32'">$(InputName).l.cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Eng|Win32'">flex.exe --wincompat -PQuestLoader -t %(Filename).l &gt; %(Filename).l.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Eng|Win32'">Building Lexer</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Eng|Win32'">$(InputName).l.cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">flex.exe --wincompat -PQuestLoader -t %(Filename).l &gt; %(Filename).l.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Lexer</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(InputName).l.cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='D_Netpower_Tpe|Win32'">flex.exe --wincompat -PQuestLoader -t %(Filename).l &gt; %(Filename).l.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='D_Netpower_Tpe|Win32'">Building Lexer</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='D_Netpower_Tpe|Win32'">$(InputName).l.cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='D_Test140|Win32'">flex.exe --wincompat -PQuestLoader -t %(Filename).l &gt; %(Filename).l.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='D_Test140|Win32'">Building Lexer</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='D_Test140|Win32'">$(InputName).l.cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='R_Netpower_Tpe|Win32'">flex.exe --wincompat -PQuestLoader -t %(Filename).l &gt; %(Filename).l.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='R_Netpower_Tpe|Win32'">Building Lexer</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='R_Netpower_Tpe|Win32'">$(InputName).l.cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='R_Intecom_Viet|Win32'">flex.exe --wincompat -PQuestLoader -t %(Filename).l &gt; %(Filename).l.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='R_Intecom_Viet|Win32'">Building Lexer</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='R_Intecom_Viet|Win32'">$(InputName).l.cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='R_Test140|Win32'">flex.exe --wincompat -PQuestLoader -t %(Filename).l &gt; %(Filename).l.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='R_Test140|Win32'">Building Lexer</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='R_Test140|Win32'">$(InputName).l.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="QuestLoader.y">
+      <Command Condition="'$(Configuration)|$(Platform)'=='D_Innova_Rus|Win32'">bison.exe -v -pQuestLoader -o QuestLoader.cpp -d %(Filename).y</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='D_Innova_Rus|Win32'">Building Parser</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='D_Innova_Rus|Win32'">$(InputName).cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Esp|Win32'">bison.exe -v -pQuestLoader -o QuestLoader.cpp -d %(Filename).y</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Esp|Win32'">Building Parser</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Esp|Win32'">$(InputName).cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Turkish|Win32'">bison.exe -pQuestLoader -o QuestLoader.cpp -d %(Filename).y</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Turkish|Win32'">Building Parser</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Turkish|Win32'">$(InputName).cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='D_WinnerOnline_Tha|Win32'">bison.exe -v -pQuestLoader -o QuestLoader.cpp -d %(Filename).y</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='D_WinnerOnline_Tha|Win32'">Building Parser</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='D_WinnerOnline_Tha|Win32'">$(InputName).cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='D_Intecom_Viet|Win32'">bison.exe -v -pQuestLoader -o QuestLoader.cpp -d %(Filename).y</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='D_Intecom_Viet|Win32'">Building Parser</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='D_Intecom_Viet|Win32'">$(InputName).cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Deu|Win32'">bison.exe -pQuestLoader -o QuestLoader.cpp -d %(Filename).y</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Deu|Win32'">Building Parser</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Deu|Win32'">$(InputName).cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='D_LIN_Arg|Win32'">bison.exe -v -pQuestLoader -o QuestLoader.cpp -d %(Filename).y</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='D_LIN_Arg|Win32'">Building Parser</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='D_LIN_Arg|Win32'">$(InputName).cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='D_WinnerOnline_SGP|Win32'">bison.exe -v -pQuestLoader -o QuestLoader.cpp -d %(Filename).y</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='D_WinnerOnline_SGP|Win32'">Building Parser</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='D_WinnerOnline_SGP|Win32'">$(InputName).cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='R_LIN_Arg|Win32'">bison.exe -pQuestLoader -o QuestLoader.cpp -d %(Filename).y</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='R_LIN_Arg|Win32'">Building Parser</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='R_LIN_Arg|Win32'">$(InputName).cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='R_Innova_Rus|Win32'">bison.exe -pQuestLoader -o QuestLoader.cpp -d %(Filename).y</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='R_Innova_Rus|Win32'">Building Parser</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='R_Innova_Rus|Win32'">$(InputName).cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='R_Wikigames_Eng|Win32'">bison.exe -pQuestLoader -o QuestLoader.cpp -d %(Filename).y</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='R_Evo_ARENA|Win32'">bison.exe -pQuestLoader -o QuestLoader.cpp -d %(Filename).y</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Development|Win32'">bison.exe -pQuestLoader -o QuestLoader.cpp -d %(Filename).y</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='R_Arena_Wikigames_Eng|Win32'">bison.exe -pQuestLoader -o QuestLoader.cpp -d %(Filename).y</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='R_Wikigames_Eng|Win32'">Building Parser</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='R_Evo_ARENA|Win32'">Building Parser</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Development|Win32'">Building Parser</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='R_Arena_Wikigames_Eng|Win32'">Building Parser</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='R_Wikigames_Eng|Win32'">$(InputName).cpp;%(Outputs)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='R_Evo_ARENA|Win32'">$(InputName).cpp;%(Outputs)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Development|Win32'">$(InputName).cpp;%(Outputs)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='R_Arena_Wikigames_Eng|Win32'">$(InputName).cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='D_WinnerOnline_IDN|Win32'">bison.exe -v -pQuestLoader -o QuestLoader.cpp -d %(Filename).y</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='D_WinnerOnline_IDN|Win32'">Building Parser</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='D_WinnerOnline_IDN|Win32'">$(InputName).cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Deu|Win32'">bison.exe -v -pQuestLoader -o QuestLoader.cpp -d %(Filename).y</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Deu|Win32'">Building Parser</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Deu|Win32'">$(InputName).cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_France|Win32'">bison.exe -v -pQuestLoader -o QuestLoader.cpp -d %(Filename).y</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_France|Win32'">Building Parser</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_France|Win32'">$(InputName).cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Eng|Win32'">bison.exe -v -pQuestLoader -o QuestLoader.cpp -d %(Filename).y</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Eng|Win32'">Building Parser</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Eng|Win32'">$(InputName).cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='D_Yedang_Kor|Win32'">bison.exe -v -pQuestLoader -o QuestLoader.cpp -d %(Filename).y</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='D_Yedang_Kor|Win32'">Building Parser</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='D_Yedang_Kor|Win32'">$(InputName).cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='R_Yetime_Chn|Win32'">bison.exe -pQuestLoader -o QuestLoader.cpp -d %(Filename).y</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='R_Yetime_Chn|Win32'">Building Parser</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='R_Yetime_Chn|Win32'">$(InputName).cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Turkish|Win32'">bison.exe -v -pQuestLoader -o QuestLoader.cpp -d %(Filename).y</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Turkish|Win32'">Building Parser</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Turkish|Win32'">$(InputName).cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Pol|Win32'">bison.exe -pQuestLoader -o QuestLoader.cpp -d %(Filename).y</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Pol|Win32'">Building Parser</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Pol|Win32'">$(InputName).cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='R_WinnerOnline_IDN|Win32'">bison.exe -pQuestLoader -o QuestLoader.cpp -d %(Filename).y</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='R_WinnerOnline_IDN|Win32'">Building Parser</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='R_WinnerOnline_IDN|Win32'">$(InputName).cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Italian|Win32'">bison.exe -v -pQuestLoader -o QuestLoader.cpp -d %(Filename).y</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Italian|Win32'">Building Parser</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Italian|Win32'">$(InputName).cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='D_Arario_Jpn|Win32'">bison.exe -v -pQuestLoader -o QuestLoader.cpp -d %(Filename).y</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='D_Arario_Jpn|Win32'">Building Parser</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='D_Arario_Jpn|Win32'">$(InputName).cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Pol|Win32'">bison.exe -v -pQuestLoader -o QuestLoader.cpp -d %(Filename).y</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Pol|Win32'">Building Parser</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Pol|Win32'">$(InputName).cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='D_Wikigames_Eng|Win32'">bison.exe -v -pQuestLoader -o QuestLoader.cpp -d %(Filename).y</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='D_Wikigames_Eng|Win32'">Building Parser</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='D_Wikigames_Eng|Win32'">$(InputName).cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='R_WinnerOnline_SGP|Win32'">bison.exe -pQuestLoader -o QuestLoader.cpp -d %(Filename).y</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='R_WinnerOnline_SGP|Win32'">Building Parser</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='R_WinnerOnline_SGP|Win32'">$(InputName).cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='R_Yedang_Kor|Win32'">bison.exe -pQuestLoader -o QuestLoader.cpp -d %(Filename).y</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='R_Yedang_Kor|Win32'">Building Parser</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='R_Yedang_Kor|Win32'">$(InputName).cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='D_Yetime_Chn|Win32'">bison.exe -v -pQuestLoader -o QuestLoader.cpp -d %(Filename).y</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='D_Yetime_Chn|Win32'">Building Parser</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='D_Yetime_Chn|Win32'">$(InputName).cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='R_Arario_Jpn|Win32'">bison.exe -pQuestLoader -o QuestLoader.cpp -d %(Filename).y</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='R_Arario_Jpn|Win32'">Building Parser</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='R_Arario_Jpn|Win32'">$(InputName).cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='R_WinnerOnline_Tha|Win32'">bison.exe -pQuestLoader -o QuestLoader.cpp -d %(Filename).y</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='R_WinnerOnline_Tha|Win32'">Building Parser</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='R_WinnerOnline_Tha|Win32'">$(InputName).cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Esp|Win32'">bison.exe -pQuestLoader -o QuestLoader.cpp -d %(Filename).y</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Esp|Win32'">Building Parser</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Esp|Win32'">$(InputName).cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">bison.exe -v -pQuestLoader -o QuestLoader.cpp -d %(Filename).y</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Parser</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(InputName).cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_France|Win32'">bison.exe -pQuestLoader -o QuestLoader.cpp -d %(Filename).y</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_France|Win32'">Building Parser</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_France|Win32'">$(InputName).cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Italian|Win32'">bison.exe -pQuestLoader -o QuestLoader.cpp -d %(Filename).y</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Italian|Win32'">Building Parser</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Italian|Win32'">$(InputName).cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Eng|Win32'">bison.exe -pQuestLoader -o QuestLoader.cpp -d %(Filename).y</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Eng|Win32'">Building Parser</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='R_Gameforge4D_Eng|Win32'">$(InputName).cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">bison.exe -pQuestLoader -o QuestLoader.cpp -d %(Filename).y</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Parser</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(InputName).cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='D_Netpower_Tpe|Win32'">bison.exe -v -pQuestLoader -o QuestLoader.cpp -d %(Filename).y</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='D_Netpower_Tpe|Win32'">Building Parser</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='D_Netpower_Tpe|Win32'">$(InputName).cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='D_Test140|Win32'">bison.exe -v -pQuestLoader -o QuestLoader.cpp -d %(Filename).y</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='D_Test140|Win32'">Building Parser</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='D_Test140|Win32'">$(InputName).cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='R_Netpower_Tpe|Win32'">bison.exe -pQuestLoader -o QuestLoader.cpp -d %(Filename).y</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='R_Netpower_Tpe|Win32'">Building Parser</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='R_Netpower_Tpe|Win32'">$(InputName).cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='R_Intecom_Viet|Win32'">bison.exe -pQuestLoader -o QuestLoader.cpp -d %(Filename).y</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='R_Intecom_Viet|Win32'">Building Parser</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='R_Intecom_Viet|Win32'">$(InputName).cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='R_Test140|Win32'">bison.exe -pQuestLoader -o QuestLoader.cpp -d %(Filename).y</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='R_Test140|Win32'">Building Parser</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='R_Test140|Win32'">$(InputName).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

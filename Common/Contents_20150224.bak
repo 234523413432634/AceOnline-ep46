@@ -1,0 +1,1155 @@
+#pragma once
+
+//----------------------------------------------------------------------------------------------------------//
+// 국가별 define                                                                                            //
+//----------------------------------------------------------------------------------------------------------//
+// _DEBUG
+// TEST140
+// YEDANG_KOR
+// WIKIGAMES_ENG
+// YETIME_CHN
+// INTECOM_VIET
+// GAMEFORGE4D_ENG
+// GAMEFORGE4D_DEU
+// GAMEFORGE4D_TURKISH
+// GAMEFORGE4D_ITALIAN
+// GAMEFORGE4D_FRANCE
+// GAMEFORGE4D_POL
+// GAMEFORGE4D_ESP
+// WINNERONLINE_THA
+// WINNERONLINE_SGP
+// WINNERONLINE_IDN
+// INNOVA_RUS
+// NETPOWER_TPE
+// ARARIO_JPN
+// LIN_ARG
+//
+//----------------------------------------------------------------------------------------------------------//
+// define 사용 규약                                                                                         //
+//----------------------------------------------------------------------------------------------------------//
+//
+// 1. 국가별 define 사용해서 묶을 때는 위의 순서 대로 묶고, 공백 역시 정확하게 삽입
+// ex1> #if defined(TEST140) || defined(YEDANG_KOR) ( o ) 딩동댕!
+// ex2> #if defined(TEST140) ||defined(YEDANG_KOR)  ( x ) 땡!
+// ex3> #if defined(YEDANG_KOR) || defined(TEST140) ( x ) 땡!
+//
+// 2. 전처리기 사용 시 #ifndef 사용을 불허 (대신 #else를 사용)
+// ex1> #ifndef TEST140 ( x ) 땡!
+//
+// 3. define을 분류 할 때 다른 국가에서 사용 가능성이 농후 할 경우 아래로 분리하고, 아닐 경우 위쪽에 분리
+//
+// 4. define을 생성 시 국가별 특성을 가질 경우 앞쪽에 국가 이니셜 삽입
+//
+// 5. define을 생성 시 자신의 이니셜을 끝에 삽입
+//
+// 6. define을 생성 시 서버, 클라에 따라서 C나 S를 삽입, 둘다 사용 할 경우 SC로 삽입
+//
+// 7. 동일한 define을 절대 2번 선언하지 말 것
+//
+// 8. 빌드 선택 시 "Win32 Debug"는 폐기된 빌드이며, 기본으로 "Win32 D_Test140" 사용
+//
+// 9. 국가별 define(ex> TEST140, YEDANG_KOR)은 절대 이 헤더파일(Contents.h) 이외에는 쓰지 말 것
+//
+//----------------------------------------------------------------------------------------------------------//
+// 국가별로 차별화를 두고 다시는 변화하지 않을 작업                                                         //
+//----------------------------------------------------------------------------------------------------------//
+
+#if defined(_DEBUG) || defined(TEST140)
+#define CUSTOM_OPTIMIZER_HSSON					// ini 파일 읽어서 게임에 적용
+#define MULTI_LOADER_HSSON						// 클라이언트를 여러개 띄울 수 있도록 수정
+#define GAMEGUARD_NOT_EXECUTE_HSSON				// 게임 가드 실행 안함
+#endif
+
+#if defined(TEST140) || defined(YEDANG_KOR)
+#define KOR_INPUT_LANGUAGE_HSSON				// 입력 언어 변환
+#define KOR_HANGEUL_START_HSSON					// 한글 모드로 시작
+#define KOR_CASHSHOP_INTERFACE_HSSON			// 캐쉬샵 인터페이스
+#define KOR_GAME_RATINGS_HSSON					// 게임 등급물 위원회 아이콘 추가
+#define KOR_CHARACTER_INTERFACE_POS_HSSON		// 언어에 따라 위치 수정
+#endif
+
+#if defined(YEDANG_KOR)
+#define KOR_YEDANG_WEB_LAUNCHER_HSSON			// 예당 웹런쳐
+#endif
+
+#if defined(_DEBUG)
+#define _ATUM_DEVELOP							// 서버용) 서버소스상 디버깅일 때 활성화 해줘야 함
+#endif
+
+#if defined(INNOVA_RUS)
+#define _USING_INNOVA_FROST_					// 서버용) 러시아의 경우 게임가드로 포레스트 사용
+#endif
+
+#if defined(TEST140)
+#define S_140_SERVER_SETTING_HSSON				// 접속할 서버, 파일명 등 국가별 세팅
+#endif
+
+#if defined(YEDANG_KOR)
+#define S_KOR_SERVER_SETTING_HSSON				// 접속할 서버, 파일명 등 국가별 세팅
+#define YEDANG_RELEASE							// 핵쉴드, 몇가지 기능 한국만 수행
+#endif
+
+#if defined(ARARIO_JPN)
+#define S_JPN_SERVER_SETTING_HSSON				// 접속할 서버, 파일명 등 국가별 세팅
+#endif
+
+#if defined(WIKIGAMES_ENG)
+#define S_CAN_SERVER_SETTING_HSSON				// 접속할 서버, 파일명 등 국가별 세팅
+#endif
+
+#if defined(INNOVA_RUS)
+#define S_RUS_SERVER_SETTING_HSSON				// 접속할 서버, 파일명 등 국가별 세팅
+#endif
+
+#if defined(INTECOM_VIET)
+#define S_VIE_SERVER_SETTING_HSSON				// 접속할 서버, 파일명 등 국가별 세팅
+#endif
+
+#if defined(GAMEFORGE4D_DEU)
+#define S_DEU_SERVER_SETTING_JHAHN
+#endif
+
+#if defined(GAMEFORGE4D_ENG)
+#define S_ENG_SERVER_SETTING_JHAHN
+#endif				  
+
+#if defined(GAMEFORGE4D_ESP)
+#define S_ESP_SERVER_SETTING_JHAHN
+#endif
+
+#if defined(GAMEFORGE4D_ITALIAN) 
+#define S_ITA_SERVER_SETTING_JHAHN
+#endif
+
+#if defined(GAMEFORGE4D_TURKISH) 
+#define S_TUR_SERVER_SETTING_JHAHN
+#endif
+
+#if defined(GAMEFORGE4D_FRANCE) 
+#define S_FRA_SERVER_SETTING_JHAHN
+#endif
+
+#if defined(GAMEFORGE4D_POL) 
+#define S_POL_SERVER_SETTING_JHAHN
+#endif
+
+#if defined(LIN_ARG) 
+#define S_ARG_SERVER_SETTING_JHAHN
+#endif
+
+#if defined(YETIME_CHN)						// 2013-07-02 by jhseol, 중국 테스트서버 구축
+#define S_CHN_SERVER_SETTING_JHSEOL
+#endif
+
+#if defined(MASANG_GLOBAL)						// 2013-09-04 by jhseol, 글로벌 서버 빌드옵션 추가
+#define S_GLOBAL_SERVER_SETTING_JHSEOL
+#endif
+
+#if defined(TEST140)
+//#define _DEBUG_MAPSETTING						// 키로 색상 바꾸기
+#endif
+
+//#if defined(TEST140) || defined(YEDANG_KOR) || defined(ARARIO_JPN) || defined(LIN_ARG) || defined(GAMEFORGE4D_ENG) || defined(WIKIGAMES_ENG) || defined (INTECOM_VIET) || defined(INNOVA_RUS)
+#define S_ARARIO_HSSON							// 아라리오 채널링
+//#endif
+
+#if defined(ARARIO_JPN)
+#define LANGUAGE_JAPAN							// 일본에 기존에 사용하던 디파인
+#endif
+
+#if defined(LIN_ARG)
+#define LANGUAGE_ARGENTINA							// 일본에 기존에 사용하던 디파인
+#endif
+
+#if defined(TEST140) || defined(YEDANG_KOR)
+#include "Str_KOR/StringDefineCommon.h"
+#include "Str_KOR/StringDefineServer.h"
+#include "Str_KOR/StringDefineClient.h"
+#endif
+
+#if defined(ARARIO_JPN)
+#include "Str_JPN/StringDefineCommon.h"
+#include "Str_JPN/StringDefineServer.h"
+#include "Str_JPN/StringDefineClient.h"
+#endif
+
+#if defined(WIKIGAMES_ENG)
+#include "Str_CAN/StringDefineCommon.h"
+#include "Str_CAN/StringDefineServer.h"
+#include "Str_CAN/StringDefineClient.h"
+#endif
+
+#if defined(INNOVA_RUS)
+#include "Str_RUS/StringDefineCommon.h"
+#include "Str_RUS/StringDefineServer.h"
+#include "Str_RUS/StringDefineClient.h"
+#endif
+
+#if defined(INTECOM_VIET)
+#include "Str_VIE/StringDefineCommon.h"
+#include "Str_VIE/StringDefineServer.h"
+#include "Str_VIE/StringDefineClient.h"
+#endif
+
+// 영국
+#if defined(GAMEFORGE4D_ENG)
+#include "Str_GAMEFORGE4D_ENG/StringDefineCommon.h"
+#include "Str_GAMEFORGE4D_ENG/StringDefineServer.h"
+#include "Str_GAMEFORGE4D_ENG/StringDefineClient.h"
+#endif
+
+// 독일
+#if defined(GAMEFORGE4D_DEU)
+#include "Str_GAMEFORGE4D_DEU/StringDefineCommon.h"
+#include "Str_GAMEFORGE4D_DEU/StringDefineServer.h"
+#include "Str_GAMEFORGE4D_DEU/StringDefineClient.h"
+#endif
+
+// 터키
+#if defined(GAMEFORGE4D_TURKISH)
+#include "Str_GAMEFORGE4D_TUR/StringDefineCommon.h"
+#include "Str_GAMEFORGE4D_TUR/StringDefineServer.h"
+#include "Str_GAMEFORGE4D_TUR/StringDefineClient.h"
+#endif
+
+// 이탈리아
+#if defined(GAMEFORGE4D_ITALIAN)
+#include "Str_GAMEFORGE4D_ITA/StringDefineCommon.h"
+#include "Str_GAMEFORGE4D_ITA/StringDefineServer.h"
+#include "Str_GAMEFORGE4D_ITA/StringDefineClient.h"
+#endif
+
+// 프랑스
+#if defined(GAMEFORGE4D_FRANCE)
+#include "Str_GAMEFORGE4D_FRA/StringDefineCommon.h"
+#include "Str_GAMEFORGE4D_FRA/StringDefineServer.h"
+#include "Str_GAMEFORGE4D_FRA/StringDefineClient.h"
+#endif
+
+// 폴란드
+#if defined(GAMEFORGE4D_POL)
+#include "Str_GAMEFORGE4D_POL/StringDefineCommon.h"
+#include "Str_GAMEFORGE4D_POL/StringDefineServer.h"
+#include "Str_GAMEFORGE4D_POL/StringDefineClient.h"
+#endif
+
+// 스페인
+#if defined(GAMEFORGE4D_ESP)
+#include "Str_GAMEFORGE4D_ESP/StringDefineCommon.h"
+#include "Str_GAMEFORGE4D_ESP/StringDefineServer.h"
+#include "Str_GAMEFORGE4D_ESP/StringDefineClient.h"
+#endif
+
+#if defined(LIN_ARG) 
+#include "Str_Arg/StringDefineCommon.h"
+#include "Str_Arg/StringDefineServer.h"
+#include "Str_Arg/StringDefineClient.h"
+#endif
+
+#if defined(YETIME_CHN)						// 2013-07-02 by jhseol, 중국 테스트서버 구축
+#include "Str_CHN/StringDefineCommon.h"
+#include "Str_CHN/StringDefineServer.h"
+#include "Str_CHN/StringDefineClient.h"
+#endif
+
+#if defined(MASANG_GLOBAL)						// 2013-09-04 by jhseol, 글로벌 서버 빌드옵션 추가
+#include "Str_GLOBAL/StringDefineCommon.h"
+#include "Str_GLOBAL/StringDefineServer.h"
+#include "Str_GLOBAL/StringDefineClient.h"
+#endif
+//----------------------------------------------------------------------------------------------------------//
+// 국가별로 차별화를 두지만 컨텐츠 레벨(진도) 또는 요구(특성)에 따라서 변화 될 작업                         //
+//----------------------------------------------------------------------------------------------------------//
+
+///////////////////////////////////////////////////////////////////
+// 전국가 반영 컨텐츠
+#define GUILD_WAREHOUSE_ACCESS_HSSON			// 멤버쉽이 아니더라도 여단창고 이용가능
+#define NEW_CASHSHOP_INTERFACE_HSSON			// 신규 캐쉬샵 작업
+#define KOR_CASHSHOP_REFILL_WEB_HSSON			// 캐쉬샵 충전 웹페이지 추가
+#define WAREHOUSE_SHARES_HSSON					// 캐릭터 간에 창고를 공유 할 수 있음
+#define SC_GROWING_PARTNER_HSKIM_JHAHN			// 캐릭터 정보 창에서 파트너UI 활성화
+#define S_INFINITY3_HSKIM						// 인피니티 3차 적용 (서버)
+#define INFI_QUEST_JSKIM					    // 인피니티 퀘스트
+#define MULTI_TARGET_JSKIM						// 멀티타켓
+#define S_AUTHENTICATION_SERVER_HSKIM			// 인증 서버 적용 (서버)
+#define SC_SECURITY_COMMAND_HSKIM				// 비밀키 적용 (클라 서버) [선행조건 (인증 서버 적용)]
+//#define C_SECURITY_COMMAND_JHAHN				// 비밀키 클라이언트 확인 - 절대 주석 풀지 마세요
+#define S_LOGIN_ITEM_EVENT_SHCHO			    // 로그인시 아이템 증정
+#define S_EP4_HSKIM								// EP4 1차 (서버)
+#define C_EPSODE4_UI_CHANGE_JSKIM				// 2011. 11. 17 by jskim EP4 UI 변경
+#define C_EPSODE4_SETTING_JHAHN					// 2011. 11. 17 by jhahn EP4 트리거 시스템 
+#define S_AUTHENTICATION_SERVER_2ND_HSKIM		// 인증 서버 2차 적용 (서버) - 서버 접속 불가시 서버 실행 불가
+#define S_STATISTICS_HSKIM						// 화폐 통계
+#define S_DELETE_DROP_ITEM_HSKIM				// 드랍된 아이템 5분뒤에 삭제
+#define S_ARENA_EX_1ST_JHSEOL					// 2012-05-29 by jhseol, 아레나 추가개발 - 맵추가, 자동파티, 편대기능 강화, 판정기능 강화, 보상횟수 제한, ti_arenainfo 필드추가
+#define C_ARENA_EX_1ST_MSPARK					// 2012-05-29 by mspark, 아레나 추가개발 - 맵 이미지 추가, 이미지 좌표 변경, 툴팁 추가
+#define C_UI_REPAIR_ISSHIN						// 2012-06-21 by isshin UI버그 수정 - Ep4만 적용
+#define S_ENEMY_INFO_JHSEOL						// 2012-07-19 by jhseol, 아템미리보기
+#define C_ENEMY_INFO_ISSHIN						// 2012-06-14 by isshin 아템미리보기
+#define S_TIMEITEM_LOG_HIDE_JHSEOL				// 2012-08-28 by jhseol, 시간제 아이템 관련 로그 삭제 요청
+#define S_ARENA_SUPPLY_ITEMNUM4					// 2012-09-14 by jhseol, 아레나 추가개발 part3 - 아레나 지급 아이템 추가 (아레나 전용 탄약 재충전 카드)
+#define C_WAR_SYSTEM_RENEWAL_STRATEGYPOINT_JHSEOL		// 2012-11-22 by jhseol, 전쟁 시스템 리뉴얼 - 전진기지전(OutPost)때 인피 입장 제한
+#define S_SEARCHEYE_SHUTTLE_POSITION_JHSEOL		// 2012-11-29 by mspark, 서치아이 위치가 이동하는 캐릭터의 위치와 동일하도록 수정
+#define C_SEARCHEYE_SHUTTLE_POSITION_MSPARK		// 2012-11-29 by mspark, 서치아이 위치가 이동하는 캐릭터의 위치와 동일하도록 수정
+#define S_KOR_TEST_MSWAR_BACK_TO_CITY_HSKIM		// 2012-12-05 by hskim, 모선전 시작시에 상대 세력 도시맵으로 워프 - 한국 먼저 테스트 후 전국가 반영을 위해
+
+#if defined(TEST140) || defined(YEDANG_KOR) || defined(WIKIGAMES_ENG) \
+|| defined(GAMEFORGE4D_DEU) || defined(GAMEFORGE4D_ENG) || defined(GAMEFORGE4D_TURKISH) || defined(GAMEFORGE4D_ITALIAN) || defined(GAMEFORGE4D_FRANCE) || defined(GAMEFORGE4D_POL) || defined(GAMEFORGE4D_ESP)
+#define S_MINI_DUMP_HSKIM		// 서버 미니덤프 생성
+#endif
+
+#if defined(INTECOM_VIET) 
+//#define ONLY_FULL_WINDOW_HSSON					// 무조건 전체화면으로 게임 진행, 알트 + 탭하면 팅구기
+#endif
+
+#if defined(TEST140) || defined(YEDANG_KOR) || defined(WIKIGAMES_ENG) || defined(YETIME_CHN) || defined(INTECOM_VIET) || defined(GAMEFORGE4D_ENG) || defined(GAMEFORGE4D_DEU) || defined(GAMEFORGE4D_TURKISH) || defined(GAMEFORGE4D_ITALIAN) || defined(GAMEFORGE4D_FRANCE) || defined(GAMEFORGE4D_POL) || defined(GAMEFORGE4D_ESP) || defined(WINNERONLINE_THA) || defined(WINNERONLINE_SGP) || defined(WINNERONLINE_IDN) || defined(INNOVA_RUS) || defined(NETPOWER_TPE) || defined(ARARIO_JPN) || defined(LIN_ARG) \
+|| defined(GAMEFORGE4D_DEU) || defined(GAMEFORGE4D_ENG) || defined(GAMEFORGE4D_TURKISH) || defined(GAMEFORGE4D_ITALIAN) || defined(GAMEFORGE4D_FRANCE) || defined(GAMEFORGE4D_POL) || defined(GAMEFORGE4D_ESP)
+#define S_ACCESS_INTERNAL_SERVER_HSSON		// 접속하는 IP를 내부 테스트 서버로 설정
+#endif
+
+// #if defined(GAMEFORGE4D_ENG) //defined(WIKIGAMES_ENG) || defined(ARARIO_JPN) || defined(INTECOM_VIET) || defined(LIN_ARG) || defined(INNOVA_RUS)
+// S_ACCESS_INTERNAL_SERVER_HSSON => 각 나라 EP4 테스트 서버
+// #define S_EP4_TEST_SERVER_HSKIM					// EP4 전달용 테스트 서버
+// #endif
+
+#if defined(TEST140)
+#define SC_DARK_CRASH_HSSON						// 클라이언트 크래쉬 날때 서버로 클라 정보 전송
+#endif
+
+#if defined(TEST140)
+#define SC_DARK_CRASH_FILE_OUTPUT_HSSON			// 클라이언트 크래쉬 날때 클라 정보를 txt파일로 남길지 여부
+#endif
+
+#if defined(TEST140)
+//#define S_GLOG_HSSON						    // GLog 기능
+#endif
+
+#if defined(TEST140) || defined(YEDANG_KOR) || defined(ARARIO_JPN) || defined(INTECOM_VIET) || defined(LIN_ARG) \
+ || defined(GAMEFORGE4D_DEU) || defined(GAMEFORGE4D_ENG) || defined(GAMEFORGE4D_TURKISH) || defined(GAMEFORGE4D_ITALIAN) || defined(GAMEFORGE4D_FRANCE) || defined(GAMEFORGE4D_POL) || defined(GAMEFORGE4D_ESP)
+#define S_AUTO_UPDATE_VERSION_BY_PRESVR_HSSON	// 자동 업데이트 버전
+#endif
+
+#if defined(INTECOM_VIET) || defined(INNOVA_RUS)
+#define S_ARENA_NOT_INFO						// 아레나에서는 할 수 없게 함
+#endif
+
+#if defined(TEST140) || defined(YEDANG_KOR) 
+#define SC_SHUT_DOWNMIN_SHCHO					// 셧다운제(만 16세 미만 접속 제한)
+#endif
+
+#if defined(TEST140)
+#define S_GM_COMMAND_USE_SHCHO					// GM 명령어를 자유롭게 사용
+#endif
+
+#if defined(TEST140) || defined(YEDANG_KOR) || defined(ARARIO_JPN) || defined(WIKIGAMES_ENG) || defined(INTECOM_VIET) || defined(LIN_ARG) \
+ || defined(GAMEFORGE4D_DEU) || defined(GAMEFORGE4D_ENG) || defined(GAMEFORGE4D_TURKISH) || defined(GAMEFORGE4D_ITALIAN) || defined(GAMEFORGE4D_FRANCE) || defined(GAMEFORGE4D_POL) || defined(GAMEFORGE4D_ESP)
+// 2013-09-03 캐나다 추가 : EP4-3
+// 2013-08-27 일본 추가 : EP4-3
+// 2013-06-10 한국 추가
+// 2014-03-04 베트남 추가 : EP4-3
+// 2014-03-04 아르헨 추가 : EP4-3
+// 2014-09-24 by bckim, 게임포지 EP4-3차 
+#define	S_TRIGGER_OUTPOST_JHSEOL	// 2013-01-21 by jhseol, NGC 전전기지 트리거 시스템
+#define	S_SKILL_NUMBERING_RENEWAL_JHSEOL	// 2013-03-12 by jhseol, 스킬 넘버링 시스템 수정 - 서버용
+#define	C_SKILL_NUMBERING_RENEWAL_BHSOHN	// 2013-03-12 by jhseol, 스킬 넘버링 시스템 수정 - 클라용
+	
+	#if defined(TEST140) || defined(YEDANG_KOR) || defined(ARARIO_JPN) || defined(WIKIGAMES_ENG) || defined(INTECOM_VIET) || defined(LIN_ARG) \
+	 || defined(GAMEFORGE4D_DEU) || defined(GAMEFORGE4D_ENG) || defined(GAMEFORGE4D_TURKISH) || defined(GAMEFORGE4D_ITALIAN) || defined(GAMEFORGE4D_FRANCE) || defined(GAMEFORGE4D_POL) || defined(GAMEFORGE4D_ESP)
+	// 2013-09-03 캐나다 추가 : EP4-3
+	// 2013-08-27 일본 추가 : EP4-3
+	// 2013-08-05 한국 추가
+	// 2014-03-04 베트남 추가 : EP4-3
+	// 2014-03-04 아르헨 추가 : EP4-3
+	// 2014-09-24 by bckim, 게임포지 EP4-3차 
+	#define S_TRIGGER_SYSTEM_EX					// 2013-07-08 by jhseol, 트리거 시스템 확장 - 기존 트리거에 전진기지 트리거의 제어기 기능을 추가
+	#endif
+#endif
+
+#if defined(TEST140) 
+#define S_GLOG_2ND_HSKIM						// GLog 2차 기능
+#endif
+
+#if defined(TEST140) 
+//#define S_EP4_DEBUG_HSKIM						// EP4 관련 디버깅용 (버그 수정후 관련 코드 삭제 할 예정)
+#endif
+
+#if defined(INTECOM_VIET) 
+#define S_MANAGER_ADMIN_HSSON					// 게임 마스터도 계정 블럭/언블럭 시킬 수 있도록 수정
+#endif
+
+#if /*defined(TEST140)*/ defined(GAMEFORGE4D_DEU) || defined(GAMEFORGE4D_ENG) || defined(GAMEFORGE4D_TURKISH) || defined(GAMEFORGE4D_ITALIAN) || defined(GAMEFORGE4D_FRANCE) || defined(GAMEFORGE4D_POL) || defined(GAMEFORGE4D_ESP) 
+// 2013-07-08 게임포지 추가
+#define S_HACK_SHIELD_AUTO_UPDATE_HSKIM			// 핵쉴드 자동 업데이트 사용
+#endif
+
+
+#if defined(TEST140) || defined(WIKIGAMES_ENG) || defined(INTECOM_VIET) || defined(LIN_ARG) || defined(INNOVA_RUS) || defined(YETIME_CHN) \
+|| defined(GAMEFORGE4D_DEU) || defined(GAMEFORGE4D_ENG) || defined(GAMEFORGE4D_TURKISH) || defined(GAMEFORGE4D_ITALIAN) || defined(GAMEFORGE4D_FRANCE) || defined(GAMEFORGE4D_POL) || defined(GAMEFORGE4D_ESP)
+#define S_LAUNCHER_USE_ID_PASSWORD_HSKIM		// 런처 ID/PASSWORD 기능 지원
+#endif
+
+#if /*defined(TEST140) ||*/ defined(YEDANG_KOR) 
+#define S_ADMIN_CHARACTER_LOGIN_IP_CHECK		// 2012-06-07 by hskim, 관리자 계정 보안 강화 - 특수계정은 등록된 아이피가 아니면 접속 차단
+#endif
+
+#if defined(TEST140)
+#define C_OBJECT_RESOURCE_ORGANIZE_MSPARK		// 2012-04-18 by mspark, 오브젝트 리소스 정리
+#define C_INTERFACE_RESOURCE_ORGANIZE_ISSHIN	// 2012-04-23 by isshin, 인터페이스 리소스 정리
+#endif
+
+#if defined(WIKIGAMES_ENG)
+#define C_USER_SCREENSHOTMODE_ISSHIN			//유저 스크린샷 모드 지원
+#endif
+						   
+#if defined(GAMEFORGE4D_DEU) || defined(GAMEFORGE4D_ENG) || defined(GAMEFORGE4D_TURKISH) || defined(GAMEFORGE4D_ITALIAN) || defined(GAMEFORGE4D_FRANCE) || defined(GAMEFORGE4D_POL) || defined(GAMEFORGE4D_ESP)
+#define C_USER_CTRL_KEY_LOCK
+#endif
+
+#if defined(GAMEFORGE4D_DEU) || defined(GAMEFORGE4D_ENG) || defined(GAMEFORGE4D_TURKISH) || defined(GAMEFORGE4D_ITALIAN) || defined(GAMEFORGE4D_FRANCE) || defined(GAMEFORGE4D_POL) || defined(GAMEFORGE4D_ESP)
+#define C_USER_COPYPAST_JHSHN			//복사, 붙여넣기 금지
+#endif
+
+#if defined(LIN_ARG)
+#define C_USER_EFFECT_CONTROL   // 2012-10-23 by jhahn, 이펙트 옵션 조절
+#endif
+
+#if defined(GAMEFORGE4D_ENG) || defined(GAMEFORGE4D_DEU) || defined(GAMEFORGE4D_TURKISH) || defined(GAMEFORGE4D_ITALIAN) || defined(GAMEFORGE4D_FRANCE) || defined(GAMEFORGE4D_POL) || defined(GAMEFORGE4D_ESP)
+#define S_GAMEFORGE_KEY_CHANGE_JHSEOL		// 2012-07-26 by jhseol, 게임포지 Key 변경
+#endif
+
+#if defined(TEST140) || defined(YEDANG_KOR) 
+//#define S_SELECTIVE_SHUTDOWN_HSKIM				// 2012-07-11 by hskim, 선택적 셧다운
+#endif
+
+#if defined(TEST140) || defined(ARARIO_JPN) || defined(YEDANG_KOR) || defined(WIKIGAMES_ENG) || defined(INTECOM_VIET)
+#define S_MS_WAR_FIN_SUPPLY_ITEM_ADD					// 모선전 종료시 추가 아이템 지급 (세력의 영광 : 7037060)
+#endif
+
+#if /*defined(TEST140) || */defined(YEDANG_KOR)
+// 2014-01-23 by jhseol, 개발서버 빌링 마상 내부 빌링으로 변경
+// 2013-05-06 by jhseol, 238 서버 빌링 테섭 연동
+#define S_BPSOFTBILLING_JHSEOL	// 2012-08-17 by jhseol, 마상 BPSoft 빌링시스템 
+#endif
+
+#if defined(TEST140) || defined(YEDANG_KOR)
+#define S_FULL_LOG_JHSEOL		// 2012-08-30 by jhseol, 풀로그 남기기
+#endif
+
+#if defined(TEST140) || defined(YEDANG_KOR) || defined(ARARIO_JPN) || defined(INTECOM_VIET) || defined(WIKIGAMES_ENG) || defined(LIN_ARG) \
+|| defined(GAMEFORGE4D_DEU) || defined(GAMEFORGE4D_ENG) || defined(GAMEFORGE4D_TURKISH) || defined(GAMEFORGE4D_ITALIAN) || defined(GAMEFORGE4D_FRANCE) || defined(GAMEFORGE4D_POL) || defined(GAMEFORGE4D_ESP)
+#define CHECK_SUM_ON		// 클라이언트 체크섬 사용 유무
+#endif 
+
+#if defined(TEST140)
+//#define S_DISABLE_CHECKSUM_RESOURCE			// 2012-12-11 by hskim, 디버깅용 리소스 체크섬 제거 (서버) (개인 서버의 디버깅 목적 외에는 활성화 하지 마세요) 
+#endif
+
+#if defined(TEST140)
+#define S_OPTION_PARTNER__JHAHN			//파트너 추가 옵션
+#endif
+
+#if /*defined(TEST140) || */defined(WIKIGAMES_ENG)
+// 2013-07-08 게임포지 핵실드 추가로 인한 내부 태섭 디파인 삭제
+#define S_HACK_SHIELD_REMOVE_JHSEOL		// 2012-09-13 by jhseol, 캐나다 핵쉴드 제거
+#endif
+
+// ep4-2차
+#if defined(TEST140) || defined(YEDANG_KOR) || defined(ARARIO_JPN) || defined(WIKIGAMES_ENG) || defined(INTECOM_VIET) || defined(LIN_ARG)	\
+|| defined(GAMEFORGE4D_DEU) || defined(GAMEFORGE4D_ENG) || defined(GAMEFORGE4D_TURKISH) || defined(GAMEFORGE4D_ITALIAN) || defined(GAMEFORGE4D_FRANCE) || defined(GAMEFORGE4D_POL) || defined(GAMEFORGE4D_ESP) 
+// 2013-11-05 아르헨 추가 : EP4-2
+// 2013-02-13 by bckim, 캐나다 EP4 2차 TEST
+// 2014-03-11 게임포지 EP4-2
+#define S_BONUSEXPSYSTEM_RENEWAL		// 2012-10-07 by jhjang 해피 아워 리뉴얼
+#define S_ADDITIONAL_EXPERIENCE			// 2012-11-12 by hskim, 휴식 경험치
+#endif
+
+#if defined(TEST140) || defined(YEDANG_KOR) || defined(ARARIO_JPN) || defined(WIKIGAMES_ENG) || defined(INTECOM_VIET)
+#define C_WARNING_APPEARANCE_CHANGE  // 2012-10-30 by mspark, 외형 변경 경고 메시지 추가
+#endif
+
+#if defined(DEACTICATION_ALL)				// 모든국가 사용안함
+#define S_ARENA_EX_1ST_RESTORE_JHSEOL		// 2012-09-14 by jhseol, 아레나 추가개발 restore - 리뉴얼 적용 상태에서 자신의 케릭터로만 플레이 하도록 수정
+#define C_ARENA_EX_1ST_RESTORE_MSPARK		// 2012-09-14 by mspark, 아레나 추가개발 restore - 리뉴얼 적용 상태에서 자신의 케릭터로만 플레이 하도록 수정
+#endif
+
+#if defined(GAMEFORGE4D_DEU) || defined(GAMEFORGE4D_ENG) || defined(GAMEFORGE4D_TURKISH) || defined(GAMEFORGE4D_ITALIAN) || defined(GAMEFORGE4D_FRANCE) || defined(GAMEFORGE4D_POL) || defined(GAMEFORGE4D_ESP)
+// 2013-03-26 by jhseol, 게임포지 EP4 아레나 변경 - EP4 부터는 아레나 규칙을 한국과 동일하게 적용 해달라는 요청을 반영하여 컨텐츠 주석처리 함.
+//#define S_ARENA_EX_GAMEFORGE_VERSION_JHSEOL	// 2012-09-21 by jhseol, 아레나 추가개발 GF버전 - 아레나 전용 캐릭터를 사용하되 기본.고급.아머만 삭제하고 대신 본인 케릭터의 장비를 가져오도록 셋팅.
+#endif
+
+#if defined(TEST140) || defined(YEDANG_KOR)
+#define SC_SHUT_DOWNMIN_JHAHN  // 2012-07-17 by jhahn, 셧다운 시간 표시
+#endif
+
+#if defined(TEST140) || defined(WIKIGAMES_ENG) 
+#define C_CANADA_HACKSHEILD_JHAHN // 2012-09-17 by jhahn	캐나다 핵쉴드 제거 버전
+#endif
+
+#if defined(TEST140) || defined(YEDANG_KOR)
+#define S_NPLAY_PCBANG_MODULE_JHSEOL	// 2012-10-05 by jhseol, NPlay pc방 모듈
+#endif
+
+#if defined(TEST140) || defined(YEDANG_KOR) || defined(INTECOM_VIET) || defined(LIN_ARG) \
+|| defined(GAMEFORGE4D_DEU) || defined(GAMEFORGE4D_ENG) || defined(GAMEFORGE4D_TURKISH) || defined(GAMEFORGE4D_ITALIAN) || defined(GAMEFORGE4D_FRANCE) || defined(GAMEFORGE4D_POL) || defined(GAMEFORGE4D_ESP)
+#define S_ITEM_VIEW_UNCONDITIONAL_ON		// 2012-10-17 by jhseol, 아템 미리보기 무조건 ON 시키기
+#define C_ITEM_VIEW_UNCONDITIONAL_ON		// 2012-10-17 by jhseol, 아템 미리보기 무조건 ON 시키기
+#endif
+
+//#if defined(???)
+//#define S_TEMP_PRESERVER_MAKE_HSKIM			// PreServer 이전(아이피 변경) 시에 임시 PreServer 제작용 메크로
+//#define TEMP_PRESERVER_MAKE_IP				"182.162.137.2"		// 변경 대상 아이피
+//#endif
+
+#if defined(GAMEFORGE4D_DEU) || defined(GAMEFORGE4D_ENG) || defined(GAMEFORGE4D_TURKISH) || defined(GAMEFORGE4D_ITALIAN) || defined(GAMEFORGE4D_FRANCE) || defined(GAMEFORGE4D_POL) || defined(GAMEFORGE4D_ESP) || defined(WIKIGAMES_ENG) \
+|| defined(TEST140) || defined(YEDANG_KOR) || defined(INTECOM_VIET)
+// 2013-06-10 캐나다 추가
+// 2014-01-02 한국, TEST140 추가
+// 2015-01-26 베트남 추가
+#define S_SERVER_CRASH_MSGBOX_REMOVE_MSPARK	// 2012-10-18 by mspark, 게임포지 서버 충돌 시 메시지 박스 보이지 않는 작업
+#endif
+
+#if defined(WIKIGAMES_ENG)
+// S_SERVER_CRASH_MSGBOX_REMOVE_MSPARK 와 조합해서 사용이 되면, 만일 지속적인 에러가 발생시 라이브 서버에
+// 하드 디스크가 바닥나는 상황도 발생 할 수 있음
+// 메시지 박스가 안보이고 파일을 각각 다르게 생성하는 조합을 해당 퍼블리셔에 전달할때에는
+// 예상되는 문제점에 대해 꼭 알려 주세요 (파일을 주기적으로 확인 해야한다는것을...)
+#define S_SERVER_CRASH_FILENAME_ADD_INFO	// 2013-05-28 by hskim, 미니 덤프 파일 이름에 시간 추가
+#endif
+
+#if defined(TEST140) || defined(YEDANG_KOR)
+#define S_GLOG_3ND_KHK					// 2012-10-18 by khkim, GLOG 3차 기능
+#endif
+
+#if defined(TEST140) || defined(INTECOM_VIET) 
+#define C_CLIENT_LIVE_TIME // 2012-11-07 by bhsohn 베트남 패킷 처리
+#endif
+
+#if defined(YEDANG_KOR)
+#define S_KOR_BUSAN_MONITORTOOL_MAKE				// 2012-11-08 by hskim, 한국 운영팀 툴 제작 (특별한 경우(한국 DB 담당자 전달을 해야하는 경우)가 아니면 활성화 상태이어야함)
+#endif
+
+// 2013-06-25 캐나다 선물기능 활성화 요청으로 인한 컨텐츠 주석처리
+//#if defined(WIKIGAMES_ENG)
+//#define S_DELETE_BUY_CASH_GIVE				// 2012-11-12 by hskim, 캐나다 선물하기 기능 삭제
+//#define C_CASHSHOP_IMAGE_REMOVE // 2012-11-16 by mspark, 캐나다 선물, 충전 기능 제거
+//#endif
+
+#if defined(WIKIGAMES_ENG)
+#define S_DISABLE_PREPARE_SHUTDOWN			// 2012-11-21 by hskim, PrepareShutdown 기능 삭제
+#endif
+
+#if defined(WIKIGAMES_ENG)
+#define C_ADMINISTRATOR_COPYPASTE_PERMISSION // 2012-11-21 by mspark, 관리자 복사, 붙여넣기 허용
+#endif
+
+#if defined(TEST140)
+// 2014-11-24 by bckim, Glog 확인용 관련로그 삭제 - 한국 
+#define S_KOR_TEST_GLOG_CHARDATA				// 2013-01-03 by khkim, GLog (버그 확인용)
+#endif
+
+#if defined(TEST140) || defined(INTECOM_VIET) || defined(ARARIO_JPN) || defined(WIKIGAMES_ENG)
+#define S_AUTO_BLOCK_SYSTEM_HSKIM				// 2012-12-14 by hskim, 메모리핵 자동 블럭 기능 구현
+// 2013-04-12 일본적용 // 2013-04-29 캐나다적용
+#endif
+
+#if defined(TEST140) || defined(YEDANG_KOR) || defined(ARARIO_JPN) || defined(WIKIGAMES_ENG) || defined(INTECOM_VIET) /*|| defined(LIN_ARG) */|| defined(INNOVA_RUS)
+//|| defined(GAMEFORGE4D_DEU) || defined(GAMEFORGE4D_ENG) || defined(GAMEFORGE4D_TURKISH) || defined(GAMEFORGE4D_ITALIAN) || defined(GAMEFORGE4D_FRANCE) || defined(GAMEFORGE4D_POL) || defined(GAMEFORGE4D_ESP)
+// 2013-09-24 게임포지 제거
+// 2013-08-07 아르헨티나 제거
+#define S_DB_FULL_LOG_JHSEOL		// 2013-01-04 by jhseol, DB 풀로그 남기기
+#endif
+
+#if defined(TEST140) || defined(WIKIGAMES_ENG)
+	#define C_LONGTIME_WINDOW_ON		// 2012-12-06 by bhsohn 장기간 window 킨후, 게임접속시 게임 멈추어 있는 현상 처리
+#endif
+
+#if defined(INTECOM_VIET)
+#define C_ARENA_PASSWORD_ALPHABET  // 2012-12-10 by jhjang 아레나 암호 영문도 가능하게 입력 수정 
+#endif
+
+#if defined(WIKIGAMES_ENG)
+#define C_MOUSEFOCUS_BACKGROUND_NOTRESET  // 2012-12-17 by jhjang 게임이 백그라운드일때, 마우스 포커스를 초기화 하지 않도록 수정
+#endif
+
+#if defined(TEST140) || defined(YEDANG_KOR) || defined(WIKIGAMES_ENG) || defined(ARARIO_JPN) || defined(WIKIGAMES_ENG) || defined(INTECOM_VIET) || defined(LIN_ARG) \
+|| defined(GAMEFORGE4D_DEU) || defined(GAMEFORGE4D_ENG) || defined(GAMEFORGE4D_TURKISH) || defined(GAMEFORGE4D_ITALIAN) || defined(GAMEFORGE4D_FRANCE) || defined(GAMEFORGE4D_POL) || defined(GAMEFORGE4D_ESP)
+// 2013-09-03 캐나다 추가 : EP4-3
+// 2013-08-27 일본 추가 : EP4-3
+// 2014-03-04 베트남 추가 : EP4-3
+// 2014-03-04 아르헨티나  추가 : EP4-3
+// 2015-01-26 게임포지 추가 : EP4-3 (EP4-4차에 들어감
+#define C_JOIN_CHATROOM_MESSAGE		// 2013-01-08 by mspark, 채팅방에 새로운 유저가 입장했을 경우 시스템 메시지 추가
+#endif
+
+#if defined(WIKIGAMES_ENG)
+#define C_BAZZER_NOT_EXIT // 2013-01-08 by jhjang 개인상점을 연 상태에서 클라이언트 멈춰있을때 강제 종료 막기 추가
+#endif
+
+#if defined(GAMEFORGE4D_DEU) || defined(GAMEFORGE4D_ENG) || defined(GAMEFORGE4D_TURKISH) || defined(GAMEFORGE4D_ITALIAN) || defined(GAMEFORGE4D_FRANCE) || defined(GAMEFORGE4D_POL) || defined(GAMEFORGE4D_ESP)
+#define C_FALL_OF_BOOSTER_USE_STOP_MSPARK		// 2013-01-31 by mspark, 게임포지 부스터 사용 중 추락 시 부스터가 소비되는 문제 수정
+#endif
+
+//#if defined(TEST140) || defined(WIKIGAMES_ENG)
+#define C_AGEAR_REFINERYSHOP_CLOSE_MSPARK		// 2013-02-04 by mspark, A기어 보급상점에 랜딩 시 이동 버튼을 누를경우, 보급상점 창이 닫히도록 작업
+//#endif
+
+// 2013-05-07 by bhsohn 웹캐쉬 상점 인증키 추가
+// 2012-11-23 by jhjang 게임포지 웹 상점 통합 작업
+//#if defined(GAMEFORGE4D_DEU) || defined(GAMEFORGE4D_ENG) || defined(GAMEFORGE4D_TURKISH) || defined(GAMEFORGE4D_ITALIAN) || defined(GAMEFORGE4D_FRANCE) || defined(GAMEFORGE4D_POL) || defined(GAMEFORGE4D_ESP)
+#if defined(TEST140) || defined(GAMEFORGE4D_DEU) || defined(GAMEFORGE4D_ENG) || defined(GAMEFORGE4D_TURKISH) || defined(GAMEFORGE4D_ITALIAN) || defined(GAMEFORGE4D_FRANCE) || defined(GAMEFORGE4D_POL) || defined(GAMEFORGE4D_ESP)
+#define C_WEB_CASHSHOP
+#define S_WEB_CASHSHOP_JHSEOL
+	// 2013-05-07 by bhsohn 웹캐쉬 상점 인증키 추가
+	#if defined(TEST140)
+		#define C_MASANG_WEB_CASHSHOP		
+	#endif
+	// END 2013-05-07 by bhsohn 웹캐쉬 상점 인증키 추가
+#endif// end 2012-11-23 by jhjang 게임포지 웹 상점 통합 작업
+
+#if defined(TEST140)
+#define S_REMANING_PROCESS_REMOVE_MSPARK		// 2012-10-21 by mspark, 게임 종료 후 프로세스에 남아있는 ACEonline.atm 제거
+#endif
+
+#if defined(TEST140) || defined(INTECOM_VIET)
+#define S_BUGFIX_DUPLICATE_ITEM_HSKIM		// 2013-02-21 by hskim, 베트남 아이템 복사 버그 보안 (DB 처리가 끝날때까지 관련 패킷은 무시) - 삭제 주기를 1시간 (3600000) 에서 26.5시간으로 변경 (90000000)
+#endif
+
+#if defined(TEST140) || defined(YEDANG_KOR) || defined(ARARIO_JPN) || defined(WIKIGAMES_ENG) || defined(INTECOM_VIET) || defined(LIN_ARG) \
+ || defined(GAMEFORGE4D_DEU) || defined(GAMEFORGE4D_ENG) || defined(GAMEFORGE4D_TURKISH) || defined(GAMEFORGE4D_ITALIAN) || defined(GAMEFORGE4D_FRANCE) || defined(GAMEFORGE4D_POL) || defined(GAMEFORGE4D_ESP)
+// 2013-09-03 캐나다 추가 : EP4-3
+// 2013-08-27 일본 추가 : EP4-3
+// 2013-04-19 한국적용
+// 2014-03-04 베트남 추가 : EP4-3
+// 2014-03-04 아르헨 추가 : EP4-3
+// 2014-09-24 by bckim, 게임포지 EP4-3차
+#define S_MONTHL_CASH_BUY_GIFT_JHSEOL				// 2013-03-29 by jhseol, 아이템 이벤트 - 매월 첫 결재시 선물지급
+#endif
+
+#if defined(TEST140) || defined(YEDANG_KOR) || defined(ARARIO_JPN) || defined(WIKIGAMES_ENG) || defined(INTECOM_VIET) || defined(LIN_ARG) \
+	|| defined(GAMEFORGE4D_DEU) || defined(GAMEFORGE4D_ENG) || defined(GAMEFORGE4D_TURKISH) || defined(GAMEFORGE4D_ITALIAN) || defined(GAMEFORGE4D_FRANCE) || defined(GAMEFORGE4D_POL) || defined(GAMEFORGE4D_ESP)
+// 2013-09-03 캐나다 추가 : EP4-3 
+// 2013-08-27 일본 추가 : EP4-3
+// 2013-04-19 한국적용
+// 2014-03-04 베트남 추가 : EP4-3
+// 2014-03-04 아르헨 추가 : EP4-3
+// 2014-09-24 by bckim, 게임포지 EP4-3차 
+#define S_ITEM_EVENT_SUB_TYPE_JHSEOL				// 2013-03-29 by jhseol, 아이템 이벤트 - 서브타입 추가구조로 변경
+#if defined(TEST140) || defined(YEDANG_KOR) || defined(ARARIO_JPN) || defined(WIKIGAMES_ENG) || defined(INTECOM_VIET) || defined(LIN_ARG) \
+	|| defined(GAMEFORGE4D_DEU) || defined(GAMEFORGE4D_ENG) || defined(GAMEFORGE4D_TURKISH) || defined(GAMEFORGE4D_ITALIAN) || defined(GAMEFORGE4D_FRANCE) || defined(GAMEFORGE4D_POL) || defined(GAMEFORGE4D_ESP)
+	// 2013-09-03 캐나다 추가 : EP4-3
+	// 2013-08-27 일본 추가 : EP4-3
+	// 2013-06-14 한국적용
+	// 2014-03-04 베트남 추가 : EP4-3
+	// 2014-03-04 아르헨 추가 : EP4-3
+	// 2014-09-24 by bckim, 게임포지 EP4-3차
+	#define S_ITEM_EVENT_RETURN_USER_BCKIM				// 2013-02-28 by bckim, 복귀유져 버프추가
+	#define C_ITEM_EVENT_RETURN_USER_BHSOHN				// 2013-03-06 by bhsohn 복귀 유저 시스템
+	#endif
+#endif
+
+#if defined(TEST140) || defined(YEDANG_KOR)
+#define S_GLOG_1ST_BCKIM				// 2013-03-14 by bckim, Glog 기능추가
+#endif
+
+#if defined(TEST140)
+#define S_ALLOWED_IP_RELOAD_JHSEOL				// 2013-03-14 by jhseol, 버전인포 리로드 시 접속 허용 IP리스트도 갱신
+#endif
+
+#if defined(TEST140)
+#define S_WEB_CASHSHOP_SERVER_MODULE_HSKIM			// 2013-03-13 by hskim, 웹 캐시 상점
+#endif
+
+#if defined(TEST140)
+//#define S_DIRECT_DB_ITEM_INSERT_SECURITY_HSKIM		// 2013-05-20 by hskim, [보안 시스템] 비정상적인 방법으로 아이템 추가 방지
+#endif
+
+#if defined(TEST140) || defined(WIKIGAMES_ENG) 
+// 2013-07-02 캐나다 추가
+#define S_DISABLE_ALONE_RUN_MODE_HSKIM					// 2013-06-12 by hskim, 하나의 OS 에서 서버 동시 실행
+#endif
+
+#if defined(TEST140) || defined(YEDANG_KOR) || defined(ARARIO_JPN) || defined(WIKIGAMES_ENG) || defined(INTECOM_VIET) || defined(LIN_ARG) \
+ || defined(GAMEFORGE4D_DEU) || defined(GAMEFORGE4D_ENG) || defined(GAMEFORGE4D_TURKISH) || defined(GAMEFORGE4D_ITALIAN) || defined(GAMEFORGE4D_FRANCE) || defined(GAMEFORGE4D_POL) || defined(GAMEFORGE4D_ESP)
+// 2013-09-03 캐나다 추가 : EP4-3
+// 2013-08-27 일본 추가 : EP4-3
+// 2013-06-10 한국 추가
+// 2014-03-04 베트남 추가 : EP4-3
+// 2014-03-04 아르헨 추가 : EP4-3
+// 2014-09-24 by bckim, 게임포지 EP4-3차 
+#define S_UPGRADE_INFLUENCE_POINT_HSKIM				// 2013-05-09 by hskim, 세력 포인트 개선
+#define C_UPGRADE_INFLUENCE_POINT_BHSOHN	// 2013-05-07 by bhsohn 세력포인트 개선안 시스템
+
+	#if defined(TEST140) || defined(YEDANG_KOR) || defined(WIKIGAMES_ENG) || defined(ARARIO_JPN) || defined(INTECOM_VIET) || defined(LIN_ARG)\
+	|| defined(GAMEFORGE4D_DEU) || defined(GAMEFORGE4D_ENG) || defined(GAMEFORGE4D_TURKISH) || defined(GAMEFORGE4D_ITALIAN) || defined(GAMEFORGE4D_FRANCE) || defined(GAMEFORGE4D_POL) || defined(GAMEFORGE4D_ESP)
+	// 2014-03-18 일본 추가 : EP4-4	
+	// 2014-01-09 캐나다 추가 : EP4-4
+	// 2014-01-09 한국 추가 : EP4-4
+	// 2014-09-03 아르헨티나 적용
+	// 2014-09-24 by bckim, 게임포지 EP4-3차 
+	// 2015-01-26 베트남 적용
+	#define S_UPGRADE_INFLUENCE_POINT_RENEWAL_JHSEOL				// 2013-12-16 by jhseol, 역전의 기회 버프 리뉴얼
+	#if defined(TEST140) || defined(YEDANG_KOR) || defined(WIKIGAMES_ENG) || defined(ARARIO_JPN) || defined(INTECOM_VIET) || defined(LIN_ARG) \
+	 || defined(GAMEFORGE4D_DEU) || defined(GAMEFORGE4D_ENG) || defined(GAMEFORGE4D_TURKISH) || defined(GAMEFORGE4D_ITALIAN) || defined(GAMEFORGE4D_FRANCE) || defined(GAMEFORGE4D_POL) || defined(GAMEFORGE4D_ESP)
+	// 2014-03-26 한국 추가 (전투력관련)
+	// 2014-05-16 일본 추가 (전투력관련)
+	// 2014-05-16 캐나타 추가 (전투력관련)
+	// 2014-09-03 아르헨티나 적용
+	// 2014-09-24 by bckim, 게임포지 EP4-3차 
+	// 2015-01-26 베트남 적용
+		#define S_PVPBUFF_COMBAT_POWER // 2014-03-26 by jekim, 역전의 버프 전투력
+		#define C_PVPBUFF_COMBAT_POWER		//2014-04-02 by ssjung 역전의 버프 리뉴얼(방어/회피) 최대치 조절
+			#if defined(TEST140) || defined(YEDANG_KOR) || defined(WIKIGAMES_ENG) || defined(ARARIO_JPN) || defined(INTECOM_VIET) || defined(LIN_ARG) \
+			|| defined(GAMEFORGE4D_DEU) || defined(GAMEFORGE4D_ENG) || defined(GAMEFORGE4D_TURKISH) || defined(GAMEFORGE4D_ITALIAN) || defined(GAMEFORGE4D_FRANCE) || defined(GAMEFORGE4D_POL) || defined(GAMEFORGE4D_ESP)
+			// 2014-08-25 일본 추가 : 밸런스 패치
+			// 2014-09-03 아르헨티나 적용		
+			// 2014-09-24 by bckim, 게임포지 EP4-3차
+			// 2015-01-15 캐나다 적용
+			// 2015-01-26 베트남 적용
+		#define SC_UNBALANCED_FORCES_ADJUST_RATIO		// 2014-06-17 by bckim, 세력 불균형 ( 역전의 기회 WP획득량,몬스터 공격력확률,몬스터공격력)
+	#endif
+
+	#endif
+	#endif
+#endif
+
+#if defined(TEST140) || defined(YEDANG_KOR) || defined(WIKIGAMES_ENG) || defined(LIN_ARG) || defined(ARARIO_JPN) || defined(INTECOM_VIET) \
+|| defined(GAMEFORGE4D_DEU) || defined(GAMEFORGE4D_ENG) || defined(GAMEFORGE4D_TURKISH) || defined(GAMEFORGE4D_ITALIAN) || defined(GAMEFORGE4D_FRANCE) || defined(GAMEFORGE4D_POL) || defined(GAMEFORGE4D_ESP)
+// 2013-07-09 캐나다, 아르헨, 게임포지 추가
+// 2013-07-11 일본 추가
+// 2013-10-28 베트남 추가
+#define S_ADMINTOOL_ENCHANT_DELETE_MODIFY_BCKIM		// 2012-11-21 by bckim, 운영툴기능추가, 인챈트아이템제거기능
+#endif
+
+#if defined(TEST140) || defined(YEDANG_KOR) || defined(ARARIO_JPN) || defined(WIKIGAMES_ENG) || defined(INTECOM_VIET) || defined(LIN_ARG) \
+ || defined(GAMEFORGE4D_DEU) || defined(GAMEFORGE4D_ENG) || defined(GAMEFORGE4D_TURKISH) || defined(GAMEFORGE4D_ITALIAN) || defined(GAMEFORGE4D_FRANCE) || defined(GAMEFORGE4D_POL) || defined(GAMEFORGE4D_ESP)
+// 2013-09-03 캐나다 추가 : EP4-3
+// 2013-08-27 일본 추가 : EP4-3
+// 2014-03-04 베트남 추가 : EP4-3
+// 2014-03-04 아르헨 추가 : EP4-3
+// 2014-09-24 by bckim, 게임포지 EP4-3차 
+#define S_ADMINTOOL_CASHSHOP_REALIGNMENT_BCKIM		// 2013-02-05 by bckim, 캐시샵 추천탭 정렬순서부여
+#endif
+
+#if defined(TEST140) || defined(WIKIGAMES_ENG) 
+	#define C_ABUSE_FILTER_RELAX	// 2013-04-03 by ssjung 캐나다 욕설 필터 완화
+#endif
+
+#if defined(TEST140) || defined(YEDANG_KOR) || defined(ARARIO_JPN) || defined(WIKIGAMES_ENG) || defined(INTECOM_VIET) || defined(LIN_ARG)	\
+||defined(GAMEFORGE4D_DEU) || defined(GAMEFORGE4D_ENG) || defined(GAMEFORGE4D_TURKISH) || defined(GAMEFORGE4D_ITALIAN) || defined(GAMEFORGE4D_FRANCE) || defined(GAMEFORGE4D_POL) || defined(GAMEFORGE4D_ESP) 
+// 2013-09-03 캐나다 추가 : EP4-3
+// 2013-08-27 일본 추가 : EP4-3
+// 2013-04-19 한국적용
+// 2014-03-04 베트남 추가 : EP4-3
+// 2014-03-04 아르헨 추가 : EP4-3
+// 2014-09-23 게임포지 추가 : EP4-3
+#define C_ITEM_EVENT_NOTIFY_MSG_CHANGE_JHSEOL				// 2013-04-08 by jhseol, 이벤트 아이템 지급 알림방법 변경
+#endif
+
+//#if defined(TEST140) || defined(YEDANG_KOR)
+#define SC_PARTNER_SHAPE_CHANGE_HSKIM				// 2012-12-03 by hskim, 파트너 기간제 외형 변경
+// 2013-04-12 한국적용
+//#endif
+
+#if defined(TEST140) || defined(YEDANG_KOR) || defined(ARARIO_JPN) || defined(WIKIGAMES_ENG)  || defined(INTECOM_VIET) || defined(LIN_ARG)	\
+||defined(GAMEFORGE4D_DEU) || defined(GAMEFORGE4D_ENG) || defined(GAMEFORGE4D_TURKISH) || defined(GAMEFORGE4D_ITALIAN) || defined(GAMEFORGE4D_FRANCE) || defined(GAMEFORGE4D_POL) || defined(GAMEFORGE4D_ESP) 
+// 2013-12-16 아르헨 추가 : EP4-2 특별사항으로 EP4-2에 포함
+// 2013-09-03 캐나다 추가 : EP4-3
+// 2013-08-27 일본 추가 : EP4-3
+// 2013-05-23 한국적용
+// 2014-03-04 베트남 추가 : EP4-3
+// 2014-03-11 게임포지 EP4-2
+#define SC_BUFF_PENALTY_JHSEOL_BCKIM					// 2013-05-07 by jhseol,bckim 버프 패널티
+#endif
+
+#if defined(TEST140)
+#define S_B_GEAR_DAMAGE_PROBABILITY_INFO		// 2013-05-06 by bckim, B기어 타겟 데미지 확인
+#endif
+
+#if defined(TEST140) || defined(YEDANG_KOR) || defined(ARARIO_JPN) || defined(WIKIGAMES_ENG) || defined(INTECOM_VIET) || defined(LIN_ARG)	\
+||defined(GAMEFORGE4D_DEU) || defined(GAMEFORGE4D_ENG) || defined(GAMEFORGE4D_TURKISH) || defined(GAMEFORGE4D_ITALIAN) || defined(GAMEFORGE4D_FRANCE) || defined(GAMEFORGE4D_POL) || defined(GAMEFORGE4D_ESP)
+// 2013-09-03 캐나다 추가 : EP4-3
+// 2013-08-27 일본 추가 : EP4-3
+// 2014-03-04 베트남 추가 : EP4-3
+// 2014-03-04 아르헨 추가 : EP4-3
+// 2014-09-23 게임포지 추가 : EP4-3
+#define C_INGAME_MIX_ITEM		// 2013-02-20 by bhsohn 인게임 조합창 처리
+#endif
+
+#if defined(TEST140) || defined(YEDANG_KOR) || defined(ARARIO_JPN) || defined(WIKIGAMES_ENG) || defined(INTECOM_VIET) || defined(LIN_ARG) \
+ || defined(GAMEFORGE4D_DEU) || defined(GAMEFORGE4D_ENG) || defined(GAMEFORGE4D_TURKISH) || defined(GAMEFORGE4D_ITALIAN) || defined(GAMEFORGE4D_FRANCE) || defined(GAMEFORGE4D_POL) || defined(GAMEFORGE4D_ESP)
+// 2013-09-03 캐나다 추가 : EP4-3
+// 2013-08-27 일본 추가 : EP4-3
+// 2013-06-18 한국적용
+// 2014-03-04 베트남 추가 : EP4-3
+// 2014-03-04 아르헨 추가 : EP4-3
+// 2014-09-24 by bckim, 게임포지 EP4-3차 
+#define SC_COLLECTION_ARMOR_JHSEOL_BCKIM		// 2013-05-31 by jhseol,bckim 아머 컬렉션 - 컨텐츠 선언
+	#if defined(TEST140) || defined(YEDANG_KOR) || defined(ARARIO_JPN) || defined(WIKIGAMES_ENG) || defined(INTECOM_VIET) || defined(LIN_ARG) \
+	 || defined(GAMEFORGE4D_DEU) || defined(GAMEFORGE4D_ENG) || defined(GAMEFORGE4D_TURKISH) || defined(GAMEFORGE4D_ITALIAN) || defined(GAMEFORGE4D_FRANCE) || defined(GAMEFORGE4D_POL) || defined(GAMEFORGE4D_ESP)
+	// 2013-09-03 캐나다 추가 : EP4-3
+	// 2013-08-27 일본 추가 : EP4-3
+	// 2013-06-18 한국적용
+	// 2014-03-04 베트남 추가 : EP4-3
+	// 2014-03-04 아르헨 추가 : EP4-3
+	// 2014-09-24 by bckim, 게임포지 EP4-3차 
+	#define S_MONTHL_ARMOR_EVENT_JHSEOL_BCKIM			// 2013-04-18 by jhseol,bckim 이달의 아머 - 컨텐츠 선언
+	#define C_MONTHL_ARMOR_EVENT_JHSEOL_BCKIM
+	#define C_MONTHLY_ARMOR_ADD_CHANGE			 	// 2013-09-09 by ssjung 이달의 아머 - 이달의 아머 툴팁 표시(추가수정)
+
+	#if defined(TEST140) || defined(YEDANG_KOR) 
+	// 2014-07-25 한국적용
+	#define SC_PREMIUM_COLLECTION_ARMOR_YMJOO_BCKIM		// 2014-07-17 by bckim, 프리미엄 아머 컬렉션	// 2014-07-18 by ymjoo 프리미엄 아머컬렉션 구현
+	#endif
+
+	#endif
+	#if defined(WIKIGAMES_ENG)
+	#define C_COLLECTION_ARMOR_NO_STAT				// 2013-10-28 by ssjung 캐나다에서 아머 교체가 되지 않는 문제 수정
+	#endif	
+#endif
+
+#if defined(TEST140)
+	#define C_CLIENT_FILE_LOG		// 2013-05-23 by bhsohn 클라이언트 파일로그(LOG) 시스템 추가
+#endif
+
+#if defined(TEST140) || defined(WIKIGAMES_ENG)
+	#define C_SHOP_ITEMCNT_INIT_BHSOHN	// 2013-06-20 by bhsohn 상점에서 아이템 구매후 숫자 초기화 코드 추가
+#endif
+
+#if defined(TEST140) || defined(YEDANG_KOR)
+// 2014-02-19 제거 : 관련 작업 => // 2014-02-19 by jhseol, 카운터블 아이템 UID:0 예외처리
+// 2013-06-27 한국적용
+//#define S_ITEMUID_ZERO_DEBUG_LOG_JHSEOL			// 2013-06-25 by jhseol, 아이템 UID '0' 추적용 디버깅 로그
+#endif
+
+#if defined(TEST140) || defined(WIKIGAMES_ENG)
+// 2013-06-28 캐나다적용
+#define S_ADMINTOOL_IP_SEARCH_JHSEOL			// 2013-06-28 by jhseol, 캐나다 어드민툴 IP조회 문제
+#endif
+
+#if defined(TEST140) || defined(WIKIGAMES_ENG)
+#define S_CANNOT_DO_GIFT_UNDER_LEVEL_BCKIM		// 2013-07-08 by bckim, 캐나다요청 레벨70 미만은 선물하기 불가
+#endif
+
+#if defined(WIKIGAMES_ENG)
+	#define C_FOCUS_MISS_CLIENT_NO_CLOSE		// 2013-06-28 by ssjung 포커스를 잃었을 시 1분후 클라이언트가 종료되는 현상 캐나다 예외처리
+#endif
+//#if defined(TEST140)
+//#define C_SERVER_DOWN_ALARM			// 2013-07-05 by bhsohn 서버종료시, 경고음 시스템
+//#endif
+
+#if defined(TEST140) || defined(WIKIGAMES_ENG)
+	#define C_LEAST_LV_GIFT			// 2013-07-09 by bhsohn 70 레벨 이상만 선물하기 가능하게 수정
+#endif
+
+#if defined(TEST140)
+#define S_MULTI_RESOLUTION_JHSEOL 				// 2013-07-30 by jhseol, 멀티해상도 지원
+#endif
+
+#if defined(TEST140) || defined(WIKIGAMES_ENG) || defined(LIN_ARG) 
+	#define C_DECA_TOOLTIP			
+#endif
+
+#if defined(TEST140) || defined(GAMEFORGE4D_DEU) || defined(GAMEFORGE4D_ENG) || defined(GAMEFORGE4D_ESP) || defined(GAMEFORGE4D_FRANCE) || defined(GAMEFORGE4D_ITALIAN) || defined(GAMEFORGE4D_POL) || defined(GAMEFORGE4D_TURKISH)
+	#define GAMEFORGE4D_CHAT_MACRO_OUTPUT_TIME	// 2013-07-30 by ssjung 게임 포지 일 경우 매크로 딜레이 15초 에서 5분으로 수정
+#endif			 
+
+// #if defined(ARARIO_JPN)	// 2013-10-21 by jhseol, 클라이언트에서 버그수정 완료 주석처리
+// #define S_AUTO_BLOCK_REATTACKETIME_EXCEPT_JHSEOL		// 2013-07-29 by jhseol, japan Memory Hack Auto Block ReAttackeTime tamp bug adjust
+// #endif
+
+#if defined(TEST140) || defined(WIKIGAMES_ENG)
+#define C_LEAST_LV_ARENA						// 2013-08-13 by ssjung 아레나 캐릭터 레벨이 25이상일 때 사용 가능하도록 수정
+#endif
+
+#if defined(TEST140) || defined(WIKIGAMES_ENG)
+#define C_INVEN_SPIWP_TOOLTIP						// 2013-08-14 by ssjung 캐나다 인벤토리안의 SPI, WP 툴팁 표시
+#endif
+
+#if defined(TEST140) || defined(YEDANG_KOR) || defined(WIKIGAMES_ENG) || defined(ARARIO_JPN) || defined(INTECOM_VIET) || defined(LIN_ARG) \
+	|| defined(GAMEFORGE4D_DEU) || defined(GAMEFORGE4D_ENG) || defined(GAMEFORGE4D_ESP) || defined(GAMEFORGE4D_FRANCE) || defined(GAMEFORGE4D_ITALIAN) || defined(GAMEFORGE4D_POL) || defined(GAMEFORGE4D_TURKISH)
+// 2014-03-18 일본 추가 : EP4-4
+// 2014-01-09 캐나다 추가 : EP4-4
+// 2013-10-02 한국적용
+// 2014-09-03 아르헨티나 적용
+// 2015-01-08 게임포지 7개 국가 적용
+// 2015-01-26 베트남 적용
+#define SC_STRATEGYPOINTWAR_RENEWAL_JHSEOL_SSJUNG		// 2013-08-14 by jhseol, 거점전 리뉴얼
+	//#if defined(TEST140) || defined(YEDANG_KOR) || defined(WIKIGAMES_ENG) || defined(ARARIO_JPN)			// 2014-06-20 한국제외
+	//#if defined(WIKIGAMES_ENG)
+	// 2014-03-26 한국 추가 (전투력관련)		// 세력불균형_승리의 환호 컨텐츠 OFF >> 2014.06.20
+	// 2014-05-16 일본 추가 (전투력관련)		// 세력불균형_승리의 환호 컨텐츠 OFF >> 2014.08.25	
+	// 2014-05-16 캐나타 추가 (전투력관련)		// 세력불균형_승리의 환호 컨텐츠 OFF >> 2015.01.15
+	// #define S_ACCLAIM_OF_VICTORY_JEKIM // 2014-03-25 by jekim, 승리의 환호
+	// #endif
+#endif
+
+#if defined(TEST140) || defined(WIKIGAMES_ENG) || defined (INTECOM_VIET) || defined(LIN_ARG)  || defined(GAMEFORGE4D_DEU) || defined(GAMEFORGE4D_ENG) || defined(GAMEFORGE4D_ESP) || defined(GAMEFORGE4D_FRANCE) || defined(GAMEFORGE4D_ITALIAN) || defined(GAMEFORGE4D_POL) || defined(GAMEFORGE4D_TURKISH)
+// 2013-10-02 캐나다적용
+// 2014-09-03 아르헨티나 적용
+// 2014-09-03 게임포지 7개 국가 적용
+// 2015-01-26 베트남 적용
+#define S_MSWAR_CALLOFHERO_SKILL_JEKIM			// 2013-09-30 by jekim, 모선전 전후 1분동안 콜 오브 히어로 스킬 못쓰게 막기
+#endif
+
+#if defined(TEST140) || defined(YEDANG_KOR) || defined(WIKIGAMES_ENG) || defined(ARARIO_JPN) || defined(INTECOM_VIET) || defined(LIN_ARG) \
+	|| defined(GAMEFORGE4D_DEU) || defined(GAMEFORGE4D_ENG) || defined(GAMEFORGE4D_ESP) || defined(GAMEFORGE4D_FRANCE) || defined(GAMEFORGE4D_ITALIAN) || defined(GAMEFORGE4D_POL) || defined(GAMEFORGE4D_TURKISH)
+// 2014-03-18 일본 추가 : EP4-4
+// 2014-01-09 캐나다 추가 : EP4-4
+// 2013-10-02 한국적용
+// 2014-09-03 아르헨티나 적용
+// 2015-01-08 게임포지 7개 국가 적용
+// 2015-01-26 베트남 적용
+#define SC_RENEWER_HAPPY_HOUR_BHSOHN_BCKIM			// 2013-08-12 by bckim, 신규해피아워
+#endif
+
+#if defined(TEST140) || defined(WIKIGAMES_ENG)
+#define C_ENGINE_ENCHANT_WARNING			 	// 2013-09-26 by ssjung 엔진 인첸트시 경고 메시지 출력
+#endif
+
+#if defined(TEST140) || defined(YEDANG_KOR)
+#define C_FIRST_ANNIVERSARY_EVENT			// 2013-10-01 by ssjung 1주년 이벤트
+#endif
+
+#if defined(TEST140) || defined(YEDANG_KOR) || defined(WIKIGAMES_ENG) || defined(ARARIO_JPN) || defined(INTECOM_VIET) || defined(LIN_ARG) \
+	|| defined(GAMEFORGE4D_DEU) || defined(GAMEFORGE4D_ENG) || defined(GAMEFORGE4D_ESP) || defined(GAMEFORGE4D_FRANCE) || defined(GAMEFORGE4D_ITALIAN) || defined(GAMEFORGE4D_POL) || defined(GAMEFORGE4D_TURKISH)
+// 2014-03-18 일본 추가 : EP4-4
+// 2014-01-09 캐나다 추가 : EP4-4
+// 2013-10-08 한국적용
+// 2014-09-03 아르헨티나 적용
+// 2015-01-08 게임포지 7개 국가 적용
+// 2015-01-26 베트남 적용
+#define SC_BOSS_MONSTER_REWARD_BCKIM_SSJUNG			// 2013-08-28 by bckim, 보스몬스터 보상강화
+#endif
+
+#if defined(TEST140) || defined(YEDANG_KOR)
+// 2013-10-08 한국적용
+#define S_QUEST_MISSION_FREE_PASS_BCKIM			// 2013-08-07 by bckim, 미션프리패스 아이템
+#endif
+
+#if defined(DEACTICATION_ALL) || defined(INTECOM_VIET)
+// 2013-12-09 베트남적용
+#define SC_XTRAP_VTC_GAMEGUARD_BHSOHN_JHSEOL	// 2013-10-09 by jhseol, X-Trap + VTC 게임가드
+#endif
+
+#if defined(TEST140) || defined(WIKIGAMES_ENG)
+#define C_DATE_SHORT_FORM						// 2013-10-14 by ssjung 날짜 형식 수정 (ex> Oct-) 달을 약자로 쓰도록 수정
+#endif
+
+#if defined(TEST140) || defined(WIKIGAMES_ENG)
+#define C_FONT_COLOR_ADD						// 2013-10-17 by ssjung 폰트 색생 추가
+#endif
+
+#if defined(TEST140) || defined(WIKIGAMES_ENG)
+#define C_NOT_COLOR_TEXT					    // 2013-11-13 by ssjung 캐나다 세력 공지사항에서 \관련 이슈 수정
+#endif	 
+
+#if defined(TEST140) || defined(YEDANG_KOR) || defined(ARARIO_JPN) || defined(WIKIGAMES_ENG) || defined(INTECOM_VIET) || defined(LIN_ARG) \
+ || defined(GAMEFORGE4D_DEU) || defined(GAMEFORGE4D_ENG) || defined(GAMEFORGE4D_TURKISH) || defined(GAMEFORGE4D_ITALIAN) || defined(GAMEFORGE4D_FRANCE) || defined(GAMEFORGE4D_POL) || defined(GAMEFORGE4D_ESP)
+// 2014-01-09 캐나다 추가 : EP4-3
+// 2014-01-09 일본 추가 : EP4-3
+// 2013-11-22 한국적용
+// 2014-03-04 베트남 추가 : EP4-3
+// 2014-03-04 아르헨 추가 : EP4-3
+// 2014-09-24 by bckim, 게임포지 EP4-3차 
+#define S_GIVE_EVENT_ITEM_AT_TIME_BCKIM		// 2013-09-30 by bckim, 특정시간 아이템지급
+#endif
+
+	#define C_CHECK_COLL_MAP						// 2013-11-21 by ymjoo 경사가 급한 지형에서 벽을 뚫는 현상 해결
+	#define C_SHUTTLE_WING_COLL_ADD_REFLECT			// 2013-11-25 by ymjoo 셔틀 좌우측 날개 충돌시 좀 더 과격하게 밀려나도록 개선
+
+#if defined(TEST140) || defined(YEDANG_KOR) || defined(WIKIGAMES_ENG) || defined(ARARIO_JPN) || defined(INTECOM_VIET) || defined(LIN_ARG)	\
+||defined(GAMEFORGE4D_DEU) || defined(GAMEFORGE4D_ENG) || defined(GAMEFORGE4D_TURKISH) || defined(GAMEFORGE4D_ITALIAN) || defined(GAMEFORGE4D_FRANCE) || defined(GAMEFORGE4D_POL) || defined(GAMEFORGE4D_ESP)
+// 2014-03-04 베트남 추가 : EP4-3
+// 2014-03-04 아르헨 추가 : EP4-3
+// 2014-09-23 게임포지 추가 : EP4-3
+#define C_AUTO_USE_KIT_SOCKET_ADD_SP_KIT_D		// 2013-11-26 by ymjoo 키트 자동 사용 소켓 파트너창에 D급 SP 키트를 추가
+#endif
+					 
+
+#if defined(TEST140) || defined(YEDANG_KOR) || defined(ARARIO_JPN)
+// 2014-09-17 일본 추가 : EP4-5
+#define C_REMOVE_VOIP_YMJOO						// 2014-01-28 by ymjoo VoIP 기능 삭제
+#define C_CHATROOM_MEMBER_LEVEL_YMJOO			// 2014-01-28 by ymjoo 채팅방 lv 정보 추가
+#define C_PARTY_MEMBER_GEAR_YMJOO				// 2014-01-28 by ymjoo 편대원 기어 정보 추가
+#endif
+#if defined(YEDANG_KOR) || defined(TEST140)
+#define C_CAPSULE_CASH_ITEM_MESSAGE_YMJOO		// 2014-02-07 by ymjoo 캡슐형 캐시 아이템 경고 메세지
+#endif
+
+
+#if defined(TEST140) || defined(YEDANG_KOR)|| defined(ARARIO_JPN)
+// 2014-09-17 일본 EP4-5차 추가 
+#define SC_MARKET_JHSEOL_BCKIM_SSJUNG		// 2013-11-25 by jhseol&bckim, 거래소 - 컨텐츠 선언
+	#if defined(TEST140) || defined(YEDANG_KOR)|| defined(ARARIO_JPN)
+// 2014-09-17 일본 EP4-5차 추가 
+	#define SC_MARKET_NOT_USE_NORMAL_INFL	// 2014-06-17 by bckim, 세력 불균형 ( 거래소 동일세력간에만 거래가 이루어지게 수정 )
+	#endif
+#endif
+
+#if defined(TEST140) || defined(YEDANG_KOR)
+#define C_END_GAME_STATE_FADE_OUT_AUTO_CANCEL_YMJOO	// 2013-11-27 by ymjoo 게임 종료 시 봐야 하는 스크린 자동 스킵
+#endif	
+
+#if defined(TEST140) || defined(YEDANG_KOR)
+#define SC_DESTROY_AUCTION_JHSEOL_BCKIM_SSJUNG		// 2014-01-03 by jhseol&bckim, 파괴경매장
+#endif																																   
+
+#if /* defined(TEST140) || */ defined(YEDANG_KOR)
+// 2014-07-17 by ymjoo 238에서 버그트랩 안씀
+#define SC_BUGTRAP_BCKIM_SSJUNG		// 2014-01-27 by bckim, 버그 트랩
+#endif
+
+#if defined(TEST140) || defined(YEDANG_KOR)
+#define SC_CHANNELING_JHSEOL_BCKIM_SSJUNG		// 2014-02-10 by jhseol&bckim, 체널링
+
+	#if defined(TEST140)
+	//#define S_CHANNELING_LAUNCHER_SERVER_FILTER		// 2014-02-10 by jhseol&bckim, 체널링 - 체널링 서버 필터 한국 런처에 잠시만 적용되는 항목
+	#endif
+#endif
+
+
+#if defined(WIKIGAMES_ENG)
+#define S_ATUM_EXE_INSTALLPATH_REGISTRY_DELECT		// 2014-02-21 by jhseol, 케나다 설치경로 레지스트 삭제
+#endif
+
+#if defined(TEST140)
+#define S_LOADING_PROGRESSBAR_JEKIM // 2014-03-10 by jekim, 서버 로딩 프로그래스바 창
+#endif
+
+
+#if defined(TEST140)|| defined(WIKIGAMES_ENG)
+#define C_DUMP_FILE_NAME_CURRENT_TIME_YMJOO		// 2014-03-04 by ymjoo 크래쉬 덤프 파일명에 시간, 날짜 추가
+#endif
+
+#if defined(TEST140) || defined(WIKIGAMES_ENG)
+#define	C_CASH_SHOP_TOOLTIP_DETAILS_YMJOO		// 2014-03-05 by ymjoo 캐시샵 아이템 세부스펙 툴팁
+#endif
+
+				   
+#if defined(TEST140) || defined(INTECOM_VIET)
+#define C_RESOURCE_FILE_ERROR_CLOSE_YMJOO		// 2014-03-28 by ymjoo 리소스 파일 에러일 때 팅기도록 수정
+#endif
+
+#if defined(TEST140) || defined(WIKIGAMES_ENG)
+#define C_NOTICE_MESSAGE_STRING_CULLING_YMJOO	// 2014-04-02 by ymjoo GM 전광판 서버 공지 메시지 글자 컬링 수정
+#endif
+
+#if defined(TEST140) || defined(YEDANG_KOR)
+#define C_WORLD_MAP_SSJUNG_YMJOO				// 2014-03-11 by ssjung&ymjoo 월드맵 구현
+#endif
+
+#if defined(TEST140) || defined(WIKIGAMES_ENG)
+#define C_CHANGE_WEAR_ITEM_COOLTIME_YMJOO		// 2014-04-16 by ymjoo 장비 교체시 쿨타임 추가
+#endif
+
+#if defined(TEST140) || defined(YEDANG_KOR)
+#define C_FRAME_MOVE_LAST_ELAPSED_TIME_YMJOO	// 2014-04-24 by ymjoo 전체화면에서 최소화시 프레임 진행이 되지 않는 현상 수정
+#endif
+
+#if defined(TEST140)
+#define C_PROFILER_YMJOO						// 2014-06-09 by ymjoo 프로파일러 구현
+#endif
+
+#if defined(TEST140) || defined(YEDANG_KOR) || defined(WIKIGAMES_ENG) || defined(ARARIO_JPN) || defined(LIN_ARG) \
+|| defined(GAMEFORGE4D_DEU) || defined(GAMEFORGE4D_ENG) || defined(GAMEFORGE4D_ESP) || defined(GAMEFORGE4D_FRANCE) || defined(GAMEFORGE4D_ITALIAN) || defined(GAMEFORGE4D_POL) || defined(GAMEFORGE4D_TURKISH)
+// 2014-03-19 한국 추가 
+// 2014-05-16 일본 추가 (전투력관련)
+// 2014-05-16 캐나타 추가 (전투력관련)
+// 2014-09-03 아르헨티나 적용
+// 2014-11-24 게임포지 누락분 적용( 전투력 로그 항목 추가)  
+#define S_COMBAT_POWER_LOGGING // 2014-03-14 by jekim, 전투력 로그 추가
+#define S_COMBAT_POWER_LOGGING_DEBUG // 2014-03-14 by jekim, 전투력 로그 추가 - 디버그 (전체 유저 전투력 시스템 로그에 남김)
+#endif
+
+#if defined(TEST140) || defined(WIKIGAMES_ENG)
+#define S_ALL_MONSTER_KILL_LOG					// 2014-03-31 by bckim, 모든 몬스터 킬로그 ( 캐나다 요청) 
+#define S_BOSS_MONSTER_DAMAGE_LOG_BY_SP_MS_OP	// 2014-03-31 by bckim, 거점,모선,전진기지 데미지 로그 ( 캐나다 요청)
+#define S_USE_SKILL_LOG_JEKIM					// 2014-03-31 by jekim, 스킬 사용 로그  -  캐나다 요청
+#endif
+
+
+#if defined(TEST140) || defined(YEDANG_KOR)
+#define S_TEMP_RESTRICTION_ITEMEVENT_PYLONES_SERVER	// 2014-04-21 by bckim,  필론 서버 복귀유져 아이템 지급제한 
+#endif
+
+#if defined(TEST140) || defined(YEDANG_KOR) || defined(WIKIGAMES_ENG) || defined(ARARIO_JPN) || defined(INTECOM_VIET) \
+|| defined(GAMEFORGE4D_DEU) || defined(GAMEFORGE4D_ENG) || defined(GAMEFORGE4D_ESP) || defined(GAMEFORGE4D_FRANCE) || defined(GAMEFORGE4D_ITALIAN) || defined(GAMEFORGE4D_POL) || defined(GAMEFORGE4D_TURKISH)
+// 2014-06-17 일본, 게임포지 추가 
+// 2015-01-15 캐나다 추가
+// 2015-01-26 베트남 추가
+#define SC_WORLDCUP_EVENT_MAP_CHANNEL_INCREASES	// 2014-06-13 by bckim, 월드컵이벤트맵 멀티채널가능하게 수정
+#endif
+
+#if defined(TEST140) || defined(YEDANG_KOR) || defined(WIKIGAMES_ENG) || defined(ARARIO_JPN) || defined(INTECOM_VIET) || defined(LIN_ARG) \
+	 || defined(GAMEFORGE4D_DEU) || defined(GAMEFORGE4D_ENG) || defined(GAMEFORGE4D_TURKISH) || defined(GAMEFORGE4D_ITALIAN) || defined(GAMEFORGE4D_FRANCE) || defined(GAMEFORGE4D_POL) || defined(GAMEFORGE4D_ESP)
+// 2014-06-17 by bckim, 세력 불균형 
+// 2014-08-25 일본 추가 : 밸런스 패치
+// 2014-09-03 아르헨티나 적용
+// 2014-09-24 by bckim, 게임포지 EP4-3차 
+// 2015-01-15 캐나다 적용
+// 2015-01-26 베트남 적용
+#define SC_UNBALANCED_FORCES_ADJUST_SHOW_INFLUNCE_INFO			// 2014-06-17 by bckim, 세력 불균형 ( 세력정보 및 우세세력 표시 )
+#define SC_UNBALANCED_FORCES_ADJUST_SPLEVEL_MAX					// 2014-07-10 by bckim, 세력 불균형(승리의환호제거시 거점레벨 MAX 조정
+#endif
+
+#if defined(TEST140)
+#define C_GM_MESSAGE_BOX_ENTER_YMJOO			// 2014-06-26 by ymjoo GM 한정 모든 메세지 박스 엔터(확인) 적용
+#endif
+
+#if defined(TEST140) || defined(YEDANG_KOR)
+#define C_DRAWTEXT_UPGRADE_YMJOO				// 2014-06-27 by ymjoo DrawText 성능 개선 작업		// 2014-07-01 by ymjoo GetStringSize 성능 개선 작업
+#endif
+
+#if defined(TEST140) || defined(YEDANG_KOR) || defined(WIKIGAMES_ENG) || defined(ARARIO_JPN) || defined(INTECOM_VIET) || defined(LIN_ARG) \
+|| defined(GAMEFORGE4D_DEU) || defined(GAMEFORGE4D_ENG) || defined(GAMEFORGE4D_ESP) || defined(GAMEFORGE4D_FRANCE) || defined(GAMEFORGE4D_ITALIAN) || defined(GAMEFORGE4D_POL) || defined(GAMEFORGE4D_TURKISH)
+// 2014-07-04 by ymjoo 지형 이펙트 디테일 옵션 변경 (ON/OFF)
+// 2014-07-25 한국 추가
+// 2014-08-25 일본 추가
+// 2014-09-03 아르헨 추가
+// 2014-09-23 게임포지 추가
+// 2015-01-15 캐나다 추가
+// 2015-01-26 베트남 추가
+#define C_TERRAIN_EFFECT_DETAIL_ON_OFF_YMJOO	// 2014-07-04 by ymjoo 지형 이펙트 디테일 옵션 변경 (ON/OFF)
+#endif
+
+#if defined(TEST140) || defined(YEDANG_KOR)
+#define C_TUTORIAL_SPEED_YMJOO					// 2014-07-17 by ymjoo 튜토리얼에서 이동속도 개선
+#endif
+
+#if defined(TEST140) || defined(YEDANG_KOR)
+#define C_MINIMAP_SIGHT_IMG_YMJOO				// 2014-07-17 by ymjoo 미니맵 앞부분 시야표시 적용
+#endif
+
+#if defined(TEST140) || defined(YEDANG_KOR)
+#define C_GAME_SINGLE_THREAD_YMJOO				// 2014-08-18 by ymjoo 싱글스레드로 변경
+#endif
+
+#if defined(TEST140) || defined(YEDANG_KOR)
+#define SC_INCREASE_BULLETS_OF_ADVANCED_WEAPONS_BY_EFFECT	// 2014-12-08 by bckim, jwLee 고급무기 이펙트 장탄수 확장 기능추가
+#endif
+
+#if defined(TEST140) || defined(YEDANG_KOR)
+#define S_IMSI_MONSTER_LOCKED_SHCHOI			// 2014-12-16 by shchoi 오브젝트에 몬스터 끼일 경우 강제로 좌표 변경해주도록 수정
+#endif
+
+#if defined(TEST140)
+#define SC_OLD_COLLECTION_ARMOR_SHCHOI			// 2014-12-29 by shchoi 이달의 구 아머
+#endif
+
+#if defined(TEST140) || defined(YEDANG_KOR)
+#define C_QUICKSLOT_CHECK_DESPARAM_JWLEE	// 2015-01-06 by jwLee 아이템 데스파람값으로 퀵슬롯 등록 가능 여부 확인
+#endif
+
+#if defined(ARARIO_JPN)
+#define C_CASH_SHOP_CHARGE_NOT_USE_JWLEE	// 2015-01-19 by jwLee 일본 리오코인 충전 버튼 삭제
+#endif
+
+#if defined(TEST140) || defined(YEDANG_KOR)	
+// 2014-12-04 by jwLee 클라이언트 리포트 보내는 정보 수정
+// 2014-12-15 by jwLee m_pVBWater 버텍스 버퍼 생성 실패시 서버에 메세지 전송
+#define C_ERROR_REPORT_WATER_VERTEX
+#endif
+
+#if defined(ARARIO_JPN)
+#define C_CASH_SHOP_NOT_USE_JWLEE	// 2015-02-04 by jwLee 일본 캐쉬샵 삭제
+#endif

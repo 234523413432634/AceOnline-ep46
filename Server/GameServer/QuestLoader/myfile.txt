@@ -1,0 +1,191 @@
+################################################################################
+# <파일 사용법 및 주의 사항>
+#
+# - 스트링을 사용할 때는 꼭 작은따옴표(')를 사용해주세요. 큰따옴표(")는 인식되지
+#   않습니다.
+# - 사용자 변수 정의는 다음과 같은 형식으로 해주세요.
+#      $숫자변수명 = 1;
+#      $문자변수명 = '문자값';
+#   C/C++ 의 #define과 동일하다고 생각하시면 됩니다.
+#
+################################################################################
+
+
+################################################################################
+## Predefined Variables(사용자 정의 변수)
+################################################################################
+# QuestType
+$QUEST_TYPE_SINGLE					= 0;	# 1회성 QUEST
+$QUEST_TYPE_SERIES					= 1;	# 연속성 QUEST
+$QUEST_TYPE_REPEATABLE				= 2;	# 무한 반복 QUEST
+
+# QuestStartType
+$QUEST_START_TYPE_LEVEL_CHANGE		= 0;	# LEVEL 변화 시 일어날 수 있는 QUEST
+$QUEST_START_TYPE_EXP_CHANGE		= 1;	# EXP 변화 시 일어날 수 있는 QUEST
+$QUEST_START_TYPE_MEET_NPC			= 2;	# 특정 NPC를 만났을 때 일어날 수 있는 QUEST
+$QUEST_START_TYPE_ENTER_BUILDING	= 3;	# 특정 건물에 들어갔을 때 일어날 수 있는 QUEST
+
+# QuestEndType
+$QUEST_END_TYPE_IMMEDIATE			= 0;	# 시작과 함께 바로 끝나는 QUEST, 클라이언트는 서버의 QUEST 종료 메시지를 받을 때 까지 기다리면 됨
+$QUEST_END_TYPE_REQESTED_BY_CLIENT	= 1;	# 클라이언트의 요청과 그에 대한 서버의 검사에 의해 끝나는 QUEST
+
+$AGEAR = 1;
+
+# UnitKind
+$UNITKIND_BT						= 15;
+$UNITKIND_OT						= 240;
+$UNITKIND_DT						= 3840;
+$UNITKIND_ST						= 61440;
+$UNITKIND_ALL						= 65535;
+
+# Spi
+$SPI_ITEM_NUMBER					= 7000022;
+
+# 문자 사용자 변수 예제
+$SHOP_NPC_NAME						= '비쥬 라이언';
+
+################################################################################
+## 퀘스트 내용 정의 부분
+################################################################################
+
+#quest (1021)
+#{
+#	BASIC_INFO				# 기본 정보
+#	{
+#		QUEST_INDEX			= 1020;
+#		QUEST_NAME			= '잃어버린 암호 해독기';
+#		QUEST_TYPE			= $QUEST_TYPE_SINGLE;
+#		QUEST_START_TYPE	= $QUEST_START_TYPE_MEET_NPC;
+#		QUEST_END_TYPE		= $QUEST_END_TYPE_REQESTED_BY_CLIENT;
+#		NPC_INDEX			= 6;
+#		NPC_NAME			= $SHOP_NPC_NAME;
+#		PRE_TALK			= '최근 중요한 기기를 수송중인 수송기가 설원지역에 추락하였습니다. 하지만 우리보다 먼저 스카우트가 수거를 해간 것 같습니다. 최대한 빨리 수거를 해야 합니다. 이 임무에 참여하신다면 명령서에 사인하세요.';
+#		FAIL_TALK			= '아직 수거하지 못하셨나요? 적에게 이 기기가 들어간다면… 빨리 수거해 주시기 바랍니다.';
+#		SUCCESS_TALK		= '훌륭히 임무를 완수하셨군요. 이 기기는 앞으로 전군에 사용될 암호해독기였습니다. 본부에서 이 임무를 훌륭히 완수해주신 파일럿에게 1500Spi의 포상을 하라는 명령입니다.';
+#		NEXT_QUEST_INDEX	= 1022;
+#		
+#	};
+#
+#	START_REQ				# 퀘스트 시작 조건
+#	{
+#		S_REQ_UNIT_KIND			= $UNITKIND_ST OR $UNITKIND_BT;
+#		S_REQ_LEVEL				= (1~10);
+#		S_REQ_ATTACK_PART		= (1~10);
+#		S_REQ_ENDURANCE_PART	= (1~);
+#		S_REQ_FUEL_PART			= (~1);
+#		S_REQ_SOUL_PART			= (1);
+#		S_REQ_DEFENSE_PART		= (1);
+#		S_REQ_DODGE_PART		= (1);
+#		S_REQ_ITEM				= 200000(1);
+#		S_REQ_ITEM				= 200001(1);
+#		S_REQ_ITEM				= 200002(1);
+#		S_REQ_QUEST_INDEX		= 30001;
+#		S_REQ_QUEST_INDEX		= 30002;
+#		S_REQ_QUEST_INDEX		= 30003;
+#	};
+#
+#	START_ACTION			# 퀘스트 시작 시 캐릭터에게 해 주는 일
+#	{
+#		S_PAY_ITEM				= $SPI_ITEM_NUMBER(10);
+#		S_DEL_ITEM				= 2000000(10);
+#	};
+#
+#	COMPLETION_REQ			# 퀘스트 성공(해결) 조건
+#	{
+#		C_REQ_MEET_NPC_INDEX	= 90003;
+#		C_REQ_ITEM				= 200000(20) FROM MONSTER 300303;
+#	};
+#
+#	COMPLETION_ACTION		# 퀘스트 성공 시 캐릭터에게 해 주는 일
+#	{
+#		C_DEL_ITEM				= 700000(1);
+#		C_DEL_ITEM				= 700001(2);
+#		C_PAY_ITEM				= 700003(2);
+#		C_PAY_ITEM				= 700022(4);
+#		C_PAY_BONUS_STAT		= 5;
+#		C_PAY_BONUS_SKILL_POINT	= 1;
+#		C_PAY_FAME				= 10;
+#		C_PAY_STATUS			= 1;
+#		C_PAY_LEVEL				= +1;
+#		C_PAY_EXPERIENCE		= +100;
+#		C_PAY_WARP_MAP_INDEX	= 3003;
+#	};
+#};
+
+quest (1010)
+{
+	BASIC_INFO				# 기본 정보
+	{
+		QUEST_INDEX			= 1010;
+		QUEST_NAME			= '공장의 복구';
+		QUEST_TYPE			= $QUEST_TYPE_REPEATABLE;
+		QUEST_START_TYPE	= $QUEST_START_TYPE_MEET_NPC;
+		QUEST_END_TYPE		= $QUEST_END_TYPE_REQESTED_BY_CLIENT;
+		PRE_TALK			= '최근 중요한 기기를 수송중인 수송기가 설원지역에 추락하였습니다. 하지만 우리보다 먼저 스카우트가 수거를 해간 것 같습니다. 최대한 빨리 수거를 해야 합니다. 이 임무에 참여하신다면 명령서에 사인하세요.';
+		FAIL_TALK			= '아직 수거하지 못하셨나요? 적에게 이 기기가 들어간다면… 빨리 수거해 주시기 바랍니다.';
+		SUCCESS_TALK		= '훌륭히 임무를 완수하셨군요. 이 기기는 앞으로 전군에 사용될 암호해독기였습니다. 본부에서 이 임무를 훌륭히 완수해주신 파일럿에게 1500Spi의 포상을 하라는 명령입니다.';
+		NPC_INDEX			= 3;
+	};
+
+	START_REQ				# 퀘스트 시작 조건
+	{
+		S_REQ_UNIT_KIND			= $UNITKIND_ALL;
+		S_REQ_LEVEL				= (2~10);
+	};
+
+	START_ACTION			# 퀘스트 시작 시 캐릭터에게 해 주는 일
+	{
+
+	};
+
+	COMPLETION_REQ			# 퀘스트 성공(해결) 조건
+	{
+		C_REQ_MEET_NPC_INDEX	= 3;
+		C_REQ_ITEM				= 7002680(20) FROM MONSTER 2002500;
+	};
+
+	COMPLETION_ACTION		# 퀘스트 성공 시 캐릭터에게 해 주는 일
+	{
+		C_DEL_ITEM				= 7002690(20);
+		C_PAY_ITEM				= 7000022(500);
+	};
+};
+
+quest (1020)
+{
+	BASIC_INFO				# 기본 정보
+	{
+		QUEST_INDEX			= 1020;
+		QUEST_NAME			= '잃어버린 암호 해독기';
+		QUEST_TYPE			= $QUEST_TYPE_SINGLE;
+		QUEST_START_TYPE	= $QUEST_START_TYPE_MEET_NPC;
+		QUEST_END_TYPE		= $QUEST_END_TYPE_REQESTED_BY_CLIENT;
+		PRE_TALK			= '최근 중요한 기기를 수송중인 수송기가 설원지역에 추락하였습니다. 하지만 우리보다 먼저 스카우트가 수거를 해간 것 같습니다. 최대한 빨리 수거를 해야 합니다. 이 임무에 참여하신다면 명령서에 사인하세요.';
+		FAIL_TALK			= '아직 수거하지 못하셨나요? 적에게 이 기기가 들어간다면… 빨리 수거해 주시기 바랍니다.';
+		SUCCESS_TALK		= '훌륭히 임무를 완수하셨군요. 이 기기는 앞으로 전군에 사용될 암호해독기였습니다. 본부에서 이 임무를 훌륭히 완수해주신 파일럿에게 1500Spi의 포상을 하라는 명령입니다.';
+		NPC_INDEX			= 6;
+	};
+
+	START_REQ				# 퀘스트 시작 조건
+	{
+		S_REQ_UNIT_KIND			= $UNITKIND_ALL;
+		S_REQ_LEVEL				= (13~);
+	};
+
+	START_ACTION			# 퀘스트 시작 시 캐릭터에게 해 주는 일
+	{
+		S_PAY_ITEM				= 7002700(1);
+	};
+
+	COMPLETION_REQ			# 퀘스트 성공(해결) 조건
+	{
+		C_REQ_MEET_NPC_INDEX	= 3;
+		C_REQ_ITEM				= 7002690(1) FROM MONSTER 2001600;
+	};
+
+	COMPLETION_ACTION		# 퀘스트 성공 시 캐릭터에게 해 주는 일
+	{
+		C_DEL_ITEM				= 7002690(1);
+		C_PAY_ITEM				= $SPI_ITEM_NUMBER(1000);
+	};
+};袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴袴

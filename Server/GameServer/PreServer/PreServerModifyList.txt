@@ -1,0 +1,1 @@
+2010-07-12 by dhjin, PreServer 시작 시 자동 업데이트 적용.

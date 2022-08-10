@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerCommandArguments>D:\238\Resource\Client\SpaceCowboy2014-03-04-09-22-30.dmp ssjung 115.144.35.22 buguser 1111 KOR_TEST_238</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <ShowAllFiles>true</ShowAllFiles>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LocalDebuggerCommandArguments>D:\238\Resource\Client\SpaceCowboy.dmp ssjung 115.144.35.27 newcrystal 1111</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win32 D_Wikigames_Eng|Win32'">
+    <LocalDebuggerCommandArguments>D:\238\Resource\Client\SpaceCowboy2014-03-04-09-22-30.dmp ssjung 115.144.35.27 newcrystal 1111 KOR_TEST_238</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win32 R_Yedang_Kor|Win32'">
+    <LocalDebuggerCommandArguments>D:\238\Resource\Client\SpaceCowboy2014-03-04-09-22-30.dmp ssjung 115.144.35.27 newcrystal 1111 KOR_TEST_238</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>

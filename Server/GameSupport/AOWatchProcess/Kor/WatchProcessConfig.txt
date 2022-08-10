@@ -1,0 +1,8 @@
+Server1
+C:\Users\Joo\Desktop\AOWP\TESTDIC\TESTDIC\cmd.exe
+
+Server2
+C:\Users\Joo\Desktop\AOWP\TESTDIC\TESTDIC\TESTDIC\cmd.exe
+
+Server3
+C:\Users\Joo\Desktop\AOWP\TESTDIC\TESTDIC\TESTDIC\TESTDIC\cmd.exe

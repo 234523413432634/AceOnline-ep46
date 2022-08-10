@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AceTrap", "TEstb.vcxproj", "{F60F80E5-8A08-4C36-817F-2D18BD63B441}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		Win32 D_Arario_Jpn|Win32 = Win32 D_Arario_Jpn|Win32
+		Win32 D_Gameforge4D_Deu|Win32 = Win32 D_Gameforge4D_Deu|Win32
+		Win32 D_Gameforge4D_Eng|Win32 = Win32 D_Gameforge4D_Eng|Win32
+		Win32 D_Gameforge4D_Esp|Win32 = Win32 D_Gameforge4D_Esp|Win32
+		Win32 D_Gameforge4D_Fra|Win32 = Win32 D_Gameforge4D_Fra|Win32
+		Win32 D_Gameforge4D_Ita|Win32 = Win32 D_Gameforge4D_Ita|Win32
+		Win32 D_Gameforge4D_Pol|Win32 = Win32 D_Gameforge4D_Pol|Win32
+		Win32 D_Gameforge4D_Tur|Win32 = Win32 D_Gameforge4D_Tur|Win32
+		Win32 D_Intecom_Viet|Win32 = Win32 D_Intecom_Viet|Win32
+		Win32 D_LIN_Arg|Win32 = Win32 D_LIN_Arg|Win32
+		Win32 D_Wikigames_Eng|Win32 = Win32 D_Wikigames_Eng|Win32
+		Win32 D_Yedang_Kor|Win32 = Win32 D_Yedang_Kor|Win32
+		Win32 R_Arario_Jpn|Win32 = Win32 R_Arario_Jpn|Win32
+		Win32 R_Gameforge4D_Deu|Win32 = Win32 R_Gameforge4D_Deu|Win32
+		Win32 R_Gameforge4D_Eng|Win32 = Win32 R_Gameforge4D_Eng|Win32
+		Win32 R_Gameforge4D_Esp|Win32 = Win32 R_Gameforge4D_Esp|Win32
+		Win32 R_Gameforge4D_Fra|Win32 = Win32 R_Gameforge4D_Fra|Win32
+		Win32 R_Gameforge4D_Ita|Win32 = Win32 R_Gameforge4D_Ita|Win32
+		Win32 R_Gameforge4D_Pol|Win32 = Win32 R_Gameforge4D_Pol|Win32
+		Win32 R_Gameforge4D_Tur|Win32 = Win32 R_Gameforge4D_Tur|Win32
+		Win32 R_Intecom_Viet|Win32 = Win32 R_Intecom_Viet|Win32
+		Win32 R_LIN_Arg|Win32 = Win32 R_LIN_Arg|Win32
+		Win32 R_Wikigames_Eng|Win32 = Win32 R_Wikigames_Eng|Win32
+		Win32 R_Yedang_Kor|Win32 = Win32 R_Yedang_Kor|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Debug|Win32.Build.0 = Debug|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Release|Win32.ActiveCfg = Release|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Release|Win32.Build.0 = Release|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Win32 D_Arario_Jpn|Win32.ActiveCfg = Win32 D_Arario_Jpn_|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Win32 D_Arario_Jpn|Win32.Build.0 = Win32 D_Arario_Jpn_|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Win32 D_Gameforge4D_Deu|Win32.ActiveCfg = Win32 D_Gameforge4D_Deu_|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Win32 D_Gameforge4D_Deu|Win32.Build.0 = Win32 D_Gameforge4D_Deu_|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Win32 D_Gameforge4D_Eng|Win32.ActiveCfg = Win32 D_Gameforge4D_Eng|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Win32 D_Gameforge4D_Eng|Win32.Build.0 = Win32 D_Gameforge4D_Eng|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Win32 D_Gameforge4D_Esp|Win32.ActiveCfg = Win32 D_Gameforge4D_Esp|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Win32 D_Gameforge4D_Esp|Win32.Build.0 = Win32 D_Gameforge4D_Esp|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Win32 D_Gameforge4D_Fra|Win32.ActiveCfg = Win32 D_Gameforge4D_Fra|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Win32 D_Gameforge4D_Fra|Win32.Build.0 = Win32 D_Gameforge4D_Fra|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Win32 D_Gameforge4D_Ita|Win32.ActiveCfg = Win32 D_Gameforge4D_Ita|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Win32 D_Gameforge4D_Ita|Win32.Build.0 = Win32 D_Gameforge4D_Ita|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Win32 D_Gameforge4D_Pol|Win32.ActiveCfg = Win32 D_Gameforge4D_Pol|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Win32 D_Gameforge4D_Pol|Win32.Build.0 = Win32 D_Gameforge4D_Pol|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Win32 D_Gameforge4D_Tur|Win32.ActiveCfg = Win32 D_Gameforge4D_Tur|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Win32 D_Gameforge4D_Tur|Win32.Build.0 = Win32 D_Gameforge4D_Tur|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Win32 D_Intecom_Viet|Win32.ActiveCfg = Win32 D_Intecom_Viet|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Win32 D_Intecom_Viet|Win32.Build.0 = Win32 D_Intecom_Viet|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Win32 D_LIN_Arg|Win32.ActiveCfg = Win32 D_LIN_Arg|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Win32 D_LIN_Arg|Win32.Build.0 = Win32 D_LIN_Arg|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Win32 D_Wikigames_Eng|Win32.ActiveCfg = Win32 D_Wikigames_Eng|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Win32 D_Wikigames_Eng|Win32.Build.0 = Win32 D_Wikigames_Eng|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Win32 D_Yedang_Kor|Win32.ActiveCfg = Win32 D_Yedang_Kor|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Win32 D_Yedang_Kor|Win32.Build.0 = Win32 D_Yedang_Kor|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Win32 R_Arario_Jpn|Win32.ActiveCfg = Win32 R_Arario_Jpn_|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Win32 R_Arario_Jpn|Win32.Build.0 = Win32 R_Arario_Jpn_|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Win32 R_Gameforge4D_Deu|Win32.ActiveCfg = Win32 R_Gameforge4D_Deu_|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Win32 R_Gameforge4D_Deu|Win32.Build.0 = Win32 R_Gameforge4D_Deu_|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Win32 R_Gameforge4D_Eng|Win32.ActiveCfg = Win32 R_Gameforge4D_Eng|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Win32 R_Gameforge4D_Eng|Win32.Build.0 = Win32 R_Gameforge4D_Eng|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Win32 R_Gameforge4D_Esp|Win32.ActiveCfg = Win32 R_Gameforge4D_Esp|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Win32 R_Gameforge4D_Esp|Win32.Build.0 = Win32 R_Gameforge4D_Esp|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Win32 R_Gameforge4D_Fra|Win32.ActiveCfg = Win32 R_Gameforge4D_Fra|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Win32 R_Gameforge4D_Fra|Win32.Build.0 = Win32 R_Gameforge4D_Fra|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Win32 R_Gameforge4D_Ita|Win32.ActiveCfg = Win32 R_Gameforge4D_Ita|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Win32 R_Gameforge4D_Ita|Win32.Build.0 = Win32 R_Gameforge4D_Ita|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Win32 R_Gameforge4D_Pol|Win32.ActiveCfg = Win32 R_Gameforge4D_Pol|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Win32 R_Gameforge4D_Pol|Win32.Build.0 = Win32 R_Gameforge4D_Pol|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Win32 R_Gameforge4D_Tur|Win32.ActiveCfg = Win32 R_Gameforge4D_Tur|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Win32 R_Gameforge4D_Tur|Win32.Build.0 = Win32 R_Gameforge4D_Tur|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Win32 R_Intecom_Viet|Win32.ActiveCfg = Win32 R_Intecom_Viet|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Win32 R_Intecom_Viet|Win32.Build.0 = Win32 R_Intecom_Viet|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Win32 R_LIN_Arg|Win32.ActiveCfg = Win32 R_LIN_Arg|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Win32 R_LIN_Arg|Win32.Build.0 = Win32 R_LIN_Arg|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Win32 R_Wikigames_Eng|Win32.ActiveCfg = Win32 R_Wikigames_Eng|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Win32 R_Wikigames_Eng|Win32.Build.0 = Win32 R_Wikigames_Eng|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Win32 R_Yedang_Kor|Win32.ActiveCfg = Win32 R_Yedang_Kor|Win32
+		{F60F80E5-8A08-4C36-817F-2D18BD63B441}.Win32 R_Yedang_Kor|Win32.Build.0 = Win32 R_Yedang_Kor|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

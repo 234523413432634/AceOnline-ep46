@@ -1,0 +1,1 @@
+BIRTHYEAR	Number of people	

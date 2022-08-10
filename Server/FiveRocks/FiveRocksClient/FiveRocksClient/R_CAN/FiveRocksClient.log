@@ -1,0 +1,15 @@
+﻿  Config.cpp
+  FiveRocksDB.cpp
+  FiveRocksDataActiveUser.cpp
+  FiveRocksDataBase.cpp
+  FiveRocksDataCustom.cpp
+  FiveRocksDataMonetization.cpp
+  FiveRocksMain.cpp
+  WinMain.cpp
+  XOR_Lib.cpp
+  Trwa generowanie kodu
+  0 of 852 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Zakończono generowanie kodu
+  FiveRocksClient.vcxproj -> D:\46\Server\FiveRocks\FiveRocksClient\R_CAN\FiveRocksClient_R_CAN.exe
