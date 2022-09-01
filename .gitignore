@@ -1,0 +1,15 @@
+Server/GameServer/.vs
+Client/.vs
+Intermediate/
+Build/Bins/
+Build/Client/
+Build/Tools/
+Build/Lib/DataRenderLib.*
+Build/Lib/DirectXLib.*
+Build/Lib/EffectLib.*
+Build/Lib/EtcLib.*
+Build/Lib/InterfaceLib.*
+Build/Lib/QuestLoaderLib.*
+Build/Lib/SkinnedMeshLib.*
+Build/Lib/SocketLib.*
+
