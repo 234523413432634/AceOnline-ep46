@@ -7232,7 +7232,7 @@ typedef vector<TENDER_INFO>								vectorTenderInfo;
 
 // 2015-07-21 by bckim, ¸¸·¾ È®Àå ( 110 >> 115 )
 #if defined(SC_LEVEL_EXPANSION_115_BCKIM_JWLEE)
-#define CHARACTER_LEVEL_110					115	
+#define CHARACTER_LEVEL_110					120	
 #else
 #define CHARACTER_LEVEL_110					110	
 #endif
