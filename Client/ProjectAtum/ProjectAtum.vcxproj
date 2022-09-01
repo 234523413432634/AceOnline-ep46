@@ -730,6 +730,7 @@
     <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)..\dx9blink\include\;$(IncludePath)</IncludePath>
     <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(SolutionDir)..\dx9blink\lib\;$(SolutionDir)..\Lib\;$(SolutionDir)..\Build\Lib\;$(LibraryPath)</LibraryPath>
     <TargetName>Engine</TargetName>
+    <TargetExt>.atm</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='D_Gameforge4D_Pol|Win32'">
     <OutDir>.\ProjectAtum___Win32_D_Gameforge4D_Pol\</OutDir>

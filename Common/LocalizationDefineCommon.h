@@ -251,11 +251,11 @@
 
 #define REGISTRY_BASE_PATH						"NewRivalsEvolution"
 #define EXE_1_FILE_NAME							"46.exe"
-#define LAUNCHER_FILE_NAME						"Updater.exe"
+#define LAUNCHER_FILE_NAME						"Updater.atm"
 #ifdef _WIN_XP
 #define CLIENT_EXEUTE_FILE_NAME					"EngineXP.atm"
 #else
-#define CLIENT_EXEUTE_FILE_NAME					"Engine.exe"
+#define CLIENT_EXEUTE_FILE_NAME					"Engine.atm"
 #endif
 #define URL_REGISTER_PAGE						"reg.asp"				// 2006-04-05 by cmkwon, 수정함
 
