@@ -1,15 +1,12 @@
 Server/GameServer/.vs
+Server/XmlRpc/Release
+Server/XmlRpc/.vs
+Server/ZipArchive/Release STL MT
+Server/ZipArchive/.vs
+Client/BaseClasses/Release
+Client/BaseClasses/.vs
 Client/.vs
 Intermediate/
-Build/Bins/
-Build/Client/
-Build/Tools/
-Build/Lib/DataRenderLib.*
-Build/Lib/DirectXLib.*
-Build/Lib/EffectLib.*
-Build/Lib/EtcLib.*
-Build/Lib/InterfaceLib.*
-Build/Lib/QuestLoaderLib.*
-Build/Lib/SkinnedMeshLib.*
-Build/Lib/SocketLib.*
+Build/
+
 
