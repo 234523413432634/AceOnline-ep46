@@ -602,7 +602,7 @@
       </DebugInformationFormat>
     </ClCompile>
     <Lib>
-      <OutputFile>../../Lib/ZipArchive.lib</OutputFile>
+      <OutputFile>../../Build/Lib/ZipArchive.lib</OutputFile>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug Unicode STL MT|Win32'">

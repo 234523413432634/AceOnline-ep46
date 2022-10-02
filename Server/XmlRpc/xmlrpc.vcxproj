@@ -119,7 +119,7 @@
     </Bscmake>
     <Lib>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <OutputFile>../Lib/xmlrpc.lib</OutputFile>
+      <OutputFile>../../Build/Lib/xmlrpc.lib</OutputFile>
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
