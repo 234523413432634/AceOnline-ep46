@@ -13,3 +13,5 @@ Build order:
 1.	AceOnline-ep46\Server\GameServer\GameServer.sln in “R_Evo” configuration
 2.	AceOnline-ep46\Server\GameServer\GameServer.sln in “R_Evo_ARENA” configuration for arena server
 3.	AceOnline-ep46\Client\ProjectAtum.sln in “R_Evo” configuration
+
+If you are getting error with QuestLoaderLib.lib, try building the solution one more time
